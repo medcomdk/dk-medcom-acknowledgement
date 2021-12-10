@@ -15,6 +15,7 @@ Description: "The Acknowledgement entry shall contain at least one Provenance re
 Severity: #error
 Expression: "entry.resource.ofType(Provenance).count() >0"
 
+Alias: $BundleType = http://hl7.org/fhir/bundle-type
 
 Instance: 04ed814c-ccf6-47aa-be73-ae38df23c66a
 InstanceOf: MedComMessagingAcknowledgement
