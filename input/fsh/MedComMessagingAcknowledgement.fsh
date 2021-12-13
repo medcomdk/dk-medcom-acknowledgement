@@ -1,7 +1,7 @@
 Profile: MedComMessagingAcknowledgement
 Parent: MedComMessagingMessage
 Id: medcom-messaging-acknowledgement
-Description: "Base resource for all MedCom Acknowledgement messages."
+Description: "Base resource for all MedCom Acknowledgement messages"
 * obeys medcom-messaging-3
 * obeys medcom-messaging-4
 
