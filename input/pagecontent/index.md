@@ -1,25 +1,11 @@
-### Implementation guide for MedCom Acknowledgement
 
 ### Introduction
 
-This implementation guide is provided by MedCom to describe the use of FHIR Acknowledgement &reg;&copy; in message based exchange of data in Danish healthcare.
-
-The implementation guide contains the Acknowledgement profiles
+This implementation guide (IG) is provided by MedCom to describe the use of FHIR &reg;&copy; Acknowledgement in message based exchange of data in Danish healthcare. A MedCom Acknowledgement message corresponds to a receipt of a delivered message, why it is crucial to keep track of the messages. Every MedCom FHIR message must be acknowledged with a MedCom Acknowledgement message, as it holds information about how the delivery of the message went.
 
 The profiles are in general made open for additional content to allow further profiling for specific purposes defined by the communicating parties.
 
 __Note:__ Be aware that entries in a message in general are unordered. Recipients of a message can therefore not assume any particular sequences of elements.
-
-
-For description regarding the transportation layer please refer to this guide:
-
-English:
-
-* [MedCom FHIR-message and enclosing envelope](Enclosing_envelope_for_FHIR-messages.html)
-
-Danish:
-
-* [MedComs FHIR-meddelelser og forsendelseskuvert](Forsendelseskuvert_for_FHIR-meddelelser.html)
 
 
 ### MedCom Acknowledgment Message
@@ -31,10 +17,6 @@ A Message Acknowledgment is required in MedCom FHIR Messaging and follows the re
 #### MedComAcknowledgmentMessageHeader
 
 Message Acknowledgment is handled through the response element in the MedComAcknowledgmentMessageHeader.
-
-### General references
-
-All referenced resources within the message are contained in the entry list.
 
 #### Content
 

@@ -4,6 +4,7 @@ Id: medcom-messaging-acknowledgement
 Description: "Base resource for all MedCom Acknowledgement messages."
 * obeys medcom-messaging-3
 * obeys medcom-messaging-4
+* entry ^short = "Message content (MedComAcknowledgementMessageHeader, MedComMessagingProvenance, MedComMessagingOrganization) - Open"
 
 Invariant: medcom-messaging-3
 Description: "The message header shall conform to medcom-messaging-acknowledgementHeader profile"
@@ -75,7 +76,7 @@ Description: "Example of a ok Acknowledgement message- CareCommunication"
 Instance: 840655c6-2812-4c14-8f03-2c59752da9eb
 InstanceOf: MedComMessagingAcknowledgement
 Title: "fatal-error Acknowledgement message with Provenance"
-Description: "Example of a fatal-error Acknowledgement message with provenance refferencing -MedCom Hospital Notification Message Admit Example-"
+Description: "Example of a fatal-error Acknowledgement message with provenance referencing -MedCom Hospital Notification Message Admit Example-"
 * type = $BundleType#message
 * timestamp = 2021-09-21T07:15:56Z
 * entry[+].fullUrl = "MessageHeader/6b027613-c442-406d-bc53-3d913f73e0a8"
