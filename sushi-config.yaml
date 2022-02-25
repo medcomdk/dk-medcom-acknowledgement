@@ -4,7 +4,7 @@ name: MedComAcknowledgement
 title: "DK MedCom acknowledgement"
 description: The DK MedCom acknowledgement IG
 status: active
-version: "1.0.0"
+version: "2.0.0"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: Build CI
