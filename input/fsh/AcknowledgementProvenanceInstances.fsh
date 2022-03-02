@@ -19,7 +19,7 @@ Description: "Provenance information for an Acknowledgementmessage - CareCommuni
 * activity.coding = $ActivityCode#acknowledgment
 * agent.who = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
 * entity.role = #revision
-* entity.what = Reference(4c284936-5454-4116-95fc-3c8eeeed2400)
+* entity.what = Reference(42cb9200-f421-4d08-8391-7d51a2503cb4)
 
 Instance: 9c56ba88-9645-11ec-b909-0242ac120002
 InstanceOf: MedComMessagingProvenance
@@ -31,4 +31,4 @@ Description: "Provenance information for an Acknowledgementmessage - CareCommuni
 * activity.coding = $ActivityCode#acknowledgment
 * agent.who = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
 * entity.role = #revision
-* entity.what = Reference(4c284936-5454-4116-95fc-3c8eeeed2400)
+* entity.what = Reference(42cb9200-f421-4d08-8391-7d51a2503cb4)
