@@ -82,7 +82,7 @@ Below can the use cases in Danish and English be found:
 
 The technical specifications for the *STANDARDNAME* standard are defined in IGs. As mentioned previously is the *STANDARDNAME* standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
 
-* *Insert link to ImplemantationGuides*
+  * *Insert link to ImplemantationGuides*
 
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the *STANDARDNAME* standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 
