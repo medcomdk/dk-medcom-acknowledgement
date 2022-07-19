@@ -6,46 +6,14 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
 
 *Create an item list with the profiles this IG includes.*
  
- <!-- below is the table of content. Ensure to update it. -->
-<!--<style>
-  ol {
-    counter-reset: item
-    }
-  li {
-    display: block
-    }
-  li:before {
-    content: counters(item, ".")" ";
-    counter-increment: item
-  }
-</style>
--->
 **Table of Content**
+* [Standard Documentation](#1-standard-documentation)
+  * [Clinical Guidelines](#11-clinical-guidelines)
+  * [Use Cases](#12-use-cases)
+  * [Implementation Guide](#13-implementation-guide)
+* [Test and Certification](#2-test-and-certification)
+* [Release Notes](#3-release-notes)
 
-<!--<ol>
-  <li> <a href="#1-documentation"> Dokumentation </a>  
-  <ol>
-    <li> <a href="#11-non-technical-guidelines"> Non-technical guideline</a>
-      <li> <a href="#12-use-cases">Use Cases</a></li>
-      <li> <a href="#13-implementation-guide">Implementation Guide </a> 
-        <ol>
-        <li> <a href="#131-introduction-to-the-technical-specifications">Introduction to the Technical Specifications</a></li>
-        </ol>
-      </li>
-      <li> <a href="#14-syntacs-and-communication-rules">Syntacs and Communication rules</a></li>
-      <li> <a href="#15-other-documentation">Other Documentations</a></li>
-    </li>
-  </ol>
-  </li>
-  <li> <a href="#3-test-and-certification">Test and Certification</a>
-    <ol>
-      <li> <a href="#21-testprotocol">Testprotocol</a></li>
-    </ol>
-  </li>
-  <li> <a href="#6-release-notes">Release Notes</a></li> 
-  <li> <a href="#4-support-or-contact">Support or Contact</a></li>
-</ol>
--->
 
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
