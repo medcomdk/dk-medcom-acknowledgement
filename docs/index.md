@@ -7,10 +7,9 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
 *Create an item list with the profiles this IG includes.*
  
  <!-- below is the table of content. Ensure to update it. -->
-<style>
+<!--<style>
   ol {
     counter-reset: item
-    
     }
   li {
     display: block
@@ -20,7 +19,7 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
     counter-increment: item
   }
 </style>
-
+-->
 **Table of Content**
 
 <!--<ol>
