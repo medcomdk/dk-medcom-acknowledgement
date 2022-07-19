@@ -23,7 +23,8 @@ The standard documentation below provides the necessary content to understand th
   * Use cases
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
   * *mention other relevant documentation*
- 
+<p>&nbsp;</p>
+
 ### 1.1 Clinical Guidelines 
 
 The clinical guidelines is the foundation for the *STANDARDNAME* standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for *STANDARDNAME*. It is important for both implementers and business specialists to understand the clinical guidelines to ensure that the implemented standard supports the requirements.
@@ -43,14 +44,13 @@ Below can the use cases in Danish and English be found:
 
 [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
 [English: Use cases](assets/documents/UseCases-ENG.md) 
-<p>&nbsp;</p>
-
 
 ### 1.3 Implementation Guide
 
 The technical specifications for the *STANDARDNAME* standard are defined in IGs. As mentioned previously is the *STANDARDNAME* standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
 
   * *Insert link to ImplemantationGuides*
+<p>&nbsp;</p>
 
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the *STANDARDNAME* standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 
@@ -63,12 +63,12 @@ Find a general description of MedCom test and certification [here](https://tmsme
 **Sending a HospitalNotification message**
   * Testprotocol
   * TouchStone Testscripts
+<p>&nbsp;</p>
  
 **Receiving a HospitalNotification message**
   * Testprotocol
   * TouchStone Testscripts
 <p>&nbsp;</p>
-
 
 ## 3 Release Notes
 
