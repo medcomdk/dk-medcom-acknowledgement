@@ -43,6 +43,7 @@ Below can the use cases in Danish and English be found:
 
 [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
 [English: Use cases](assets/documents/UseCases-ENG.md) 
+</br>
 
 ### 1.3 Implementation Guide
 
@@ -65,6 +66,7 @@ Find a general description of MedCom test and certification [here](https://tmsme
 **Receiving a HospitalNotification message**
   * Testprotocol
   * TouchStone Testscripts
+</br>
 
 ## 3 Release Notes
 
