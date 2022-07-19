@@ -20,7 +20,9 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
     counter-increment: item
   }
 </style>
+
 **Table of Content**
+
 <ol>
   <li> <a href="#1-documentation"> Dokumentation </a>  
   <ol>
@@ -51,11 +53,10 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
 ## 1 Standard Documentation 
 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the *STANDARDNAME* message, what to implement and how to get a MedCom certificate. The standard documentation for *STANDARDNAME* includes:
-
-* Clinical Guidelines
-* Use cases
-* Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
-* *mention other relevant documentation*
+  * Clinical Guidelines
+  * Use cases
+  * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
+  * *mention other relevant documentation*
  
 ### 1.1 Clinical Guidelines 
 
@@ -87,19 +88,17 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 
 [An introduction to the technical specificationscan be found here.]((assets/documents/Intro-Technical-Spec-ENG.md))
 
-
 ## 2 Test and Certification
 
 Find a general description of MedCom test and certification [here](https://tmsmedcom.github.io/GitHubPagesTest/#test-and-certification). 
 
 **Sending a HospitalNotification message**
-* Testprotocol
-* TouchStone Testscripts
+  * Testprotocol
+  * TouchStone Testscripts
  
 **Receiving a HospitalNotification message**
-* Testprotocol
-* TouchStone Testscripts
- 
+  * Testprotocol
+  * TouchStone Testscripts
 
 ## 3 Release Notes
 
