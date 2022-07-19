@@ -7,13 +7,12 @@ This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/).
 *Create an item list with the profiles this IG includes.*
  
 **Table of Content**
-* [Standard Documentation](#1-standard-documentation)
-  * [Clinical Guidelines](#11-clinical-guidelines)
-  * [Use Cases](#12-use-cases)
-  * [Implementation Guide](#13-implementation-guide)
-* [Test and Certification](#2-test-and-certification)
-* [Release Notes](#3-release-notes)
-
+* [1 Standard Documentation](#1-standard-documentation)
+  * [1.1 Clinical Guidelines](#11-clinical-guidelines)
+  * [1.2 Use Cases](#12-use-cases)
+  * [1.3 Implementation Guide](#13-implementation-guide)
+* [2 Test and Certification](#2-test-and-certification)
+* [3 Release Notes](#3-release-notes)
 
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
