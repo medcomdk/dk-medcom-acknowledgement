@@ -13,7 +13,7 @@ Instance: 69dab277-dd4b-4055-9fda-a10a65cb4412
 InstanceOf: MedComMessagingProvenance
 Title: "Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
 Description: "Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
-* target = Reference(4aa2d9bf-2c6c-47e8-bce4-7928bcd51019)
+* target = Reference(aba2d9bf-2c6c-47e8-bce4-7928bcd51019)
 * occurredDateTime = 2020-09-28T12:34:57Z
 * recorded = 2020-09-28T12:34:57Z
 * activity.coding = $ActivityCode#acknowledgment
@@ -25,7 +25,7 @@ Instance: 9c56ba88-9645-11ec-b909-0242ac120002
 InstanceOf: MedComMessagingProvenance
 Title: "Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
 Description: "Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
-* target = Reference(4879c81e-0607-4ccb-b358-24a72208e30d)
+* target = Reference(b879c81e-0607-4ccb-b358-24a72208e30d)
 * occurredDateTime = 2020-09-28T12:34:57Z
 * recorded = 2020-09-28T12:34:57Z
 * activity.coding = $ActivityCode#acknowledgment

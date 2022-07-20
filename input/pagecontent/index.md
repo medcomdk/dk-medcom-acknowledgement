@@ -7,7 +7,7 @@ __Note:__ Be aware that entries in a message in general are unordered. Recipient
 
 The following diagram depicts the structure of the Acknowledgement message.
 
-<img alt="MedComMessagingAcknowledgement is the root profile. From this is the MedComMessagingProvenance and MedComMessagingAcknowledgementHeader referenced. The MedComMessagingAcknowledgementHeader includes references to the MedComMasseagingOrganization." src="./MedComMessagingAcknowledgement.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
+<img alt="MedComAcknowledgementMessage is the root profile. From this is the MedComMessagingProvenance and MedComAcknowledgementMessageHeader referenced. The MedComAcknowledgementMessageHeader includes references to the MedComMasseagingOrganization." src="./MedComAcknowledgementMessage.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
 The Acknowledgement message follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The following sections describe the overall purpose of each profile.
 
@@ -27,7 +27,7 @@ This document presents MedCom messaging concepts defined via FHIR processable ar
 
 * [Profiles](profiles.html) - contain the constraints to core FHIR resources and datatype for use in MedCom messages
 * [Extensions](extensions.html) - are FHIR extensions that are added for local use, covering needed concepts for the messaging
-* [Terminologies](terminology.html) - are defined or referenced code systems and value sets for the messaging context
+* [Terminologies](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/index.html) - are defined or referenced code systems and value sets for the messaging context
 
 #### Governance
 

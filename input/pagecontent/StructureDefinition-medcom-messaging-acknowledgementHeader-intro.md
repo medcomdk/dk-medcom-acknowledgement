@@ -1,12 +1,12 @@
 ### Scope and usage 
 This profile is used as the MessageHeader resource for the MedCom Acknowledgement message. 
-Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComMessagingAcknowledgementHeader not allow for a receiver of the type carbon-copy and it require a respons code, which includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in respons code *ok*. For further description about the latter, see section below.   
+Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComAcknowledgementMessageHeader not allow for a receiver of the type carbon-copy and it require a respons code, which includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in respons code *ok*. For further description about the latter, see section below.   
 
-Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComMessagingAcknowledgementHeader.
+Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComAcknowledgementMessageHeader.
 
 ### Respons code
 
-A MedComMessagingAcknowledgementHeader is required in MedCom FHIR Messaging and follows the recommandations from HL7 FHIR ValueSet [response-code](http://hl7.org/fhir/R4/valueset-response-code.html "response-code") 
+A MedComAcknowledgementMessageHeader is required in MedCom FHIR Messaging and follows the recommandations from HL7 FHIR ValueSet [response-code](http://hl7.org/fhir/R4/valueset-response-code.html "response-code") 
 
 The codes here are equivalent to HL7 v3.Acknowledgement as described in the table below.
 
