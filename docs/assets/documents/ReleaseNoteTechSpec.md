@@ -8,7 +8,7 @@ Each subpage will have its own release note, and they can be found here:
   * [MedCom Acknowledgement](ReleaseNote-ENG.md)
     * [Clinical Guidelines DK](ReleaseNote-ClinicalGuidelineDK.md)
     * [Clinical Guidelines ENG](ReleaseNoteClinGuidENG.md)
-    * [Use Cases DK](ReleaseNote-ClinicalGuidelineDK.md)
+    * [Use Cases DK](ReleaseNotesUseCaseDK.md)
     * [Use Cases ENG](ReleaseNoteUseCaseENG.md) 
     * [Introduction to the Techical Specifications](ReleaseNoteTechSpec.md)
 
