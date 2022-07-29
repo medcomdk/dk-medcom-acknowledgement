@@ -1,5 +1,5 @@
 [Return](../../index.md)
-# Release Note
+# Release Notes
 
 The release notes in the following describes the changes made to the MedCom Acknowledgement standard and subpages.
 Each subpage will have its own release note, and they can be found here: 
