@@ -3,4 +3,4 @@
 # Non-Technical Guidelines
 
 # Release Notes
-[Updates in the latest release.](../documents/Clinical-guidelines-DA.md)
+[Updates in the latest release.](../documents/ReleaseNote-ClinicalGuidelineDK.md)
