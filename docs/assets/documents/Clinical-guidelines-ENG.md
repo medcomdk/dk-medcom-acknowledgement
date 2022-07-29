@@ -2,4 +2,4 @@
 
 # Non-Technical Guidelines
 # Release Notes
-[Updates in the latest release.](../../ReleaseNoteClinGuidENG.md)
+[Updates in the latest release.](../documents/Clinical-guidelines-ENG.md)
