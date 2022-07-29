@@ -1,3 +1,5 @@
+<a href="https://medcomdk.github.io/MedComLandingPage/">Return</a>
+
 # MedCom Acknowledgement - WORK IN PROGRESS! 
 <!-- HomePage -->
 This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). 
