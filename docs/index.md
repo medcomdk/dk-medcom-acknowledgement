@@ -46,7 +46,6 @@ Below can the use cases in Danish and English be found:
 [English: Use cases](assets/documents/UseCases-ENG.md) 
 
 ### 1.3 Implementation Guide
-
 The technical specifications for the *STANDARDNAME* standard are defined in IGs. As mentioned previously is the *STANDARDNAME* standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
 
   * *Insert link to ImplemantationGuides*
