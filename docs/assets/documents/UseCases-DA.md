@@ -2,4 +2,4 @@
 
 
 # Release Notes
-[Updates in the latest release.](../../ReleaseNotesUseCaseDK.md)
+[Updates in the latest release.](../documents/ReleaseNotesUseCaseDK.md)

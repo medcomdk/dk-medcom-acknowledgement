@@ -1,4 +1,4 @@
 [Return](../../index.md)
 
 # Release Notes
-[Updates in the latest release.](../../ReleaseNoteUseCaseENG.md)
+[Updates in the latest release.](../documents/ReleaseNoteUseCaseENG.md)
