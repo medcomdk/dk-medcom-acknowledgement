@@ -56,6 +56,7 @@ The technical specifications for the *STANDARDNAME* standard are defined in IGs.
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the *STANDARDNAME* standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 
 [An introduction to the technical specifications can be found here.](IntroTechnicalSpecENG.md)
+[An introduction to the technical specifications]
 
 ## 2 Test and Certification
 
