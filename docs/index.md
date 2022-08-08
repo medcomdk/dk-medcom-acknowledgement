@@ -17,7 +17,8 @@ The Acknowledgement FHIR standard contains following profiles:
   * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
 * [3 Release Notes](#3-release-notes)
-
+<br>
+<br>
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
 
