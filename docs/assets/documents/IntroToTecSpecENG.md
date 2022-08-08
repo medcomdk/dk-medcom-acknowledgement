@@ -1,11 +1,11 @@
 [Return](../../index.md)
 # Introduction to the Technical Content
 
-> In case of discrepancies between the [Implementation Guide (IG)](*Insert correct link*) and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
+> In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
 
 
 # Profiles in the Acknowledgement Standard
-In total three profiles form MedComCore IG and MedComMessaging IG and MedCom Acknowledgement Ig contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
+In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:80%}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -50,11 +50,11 @@ In total three profiles form MedComCore IG and MedComMessaging IG and MedCom Ack
     <td class="tg-on52">MedComAcknowledgment</td>
   </tr>
   <tr>
-    <td class="tg-on52">MedComCoreOrganization</td>
+    <td class="tg-on52">MedComMessagingeOrganization</td>
     <td class="tg-on52">Organization</td>
-    <td class="tg-on52">Information useful to identify an organization. In a Acknowledgment message it is used to describe the service provider organization <br></td>
-    <td class="tg-on52">Identifier (SOR-id)<br>Name</td>
-    <td class="tg-on52">MedComCore</td>
+    <td class="tg-on52">Information useful to identify an organization. In a Acknowledgement message it is used to describe the service provider organization <br></td>
+    <td class="tg-on52">Identifier (SOR-id)<br>Identifier (EAN/GLN-id)<br>Name</td>
+    <td class="tg-on52">MedComMessaging</td>
   </tr>
   <tr>
     <td class="tg-73oq">MedComMessagingProvenance</td>
