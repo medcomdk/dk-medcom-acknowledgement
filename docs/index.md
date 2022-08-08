@@ -2,7 +2,24 @@
 
 # MedCom Acknowledgement - WORK IN PROGRESS! 
 <!-- HomePage -->
-This FHIR&reg;&copy; standard is developed by [MedCom](https://www.medcom.dk/). 
+This page presents MedComs Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to inform how the delivery of the FHIR message went in the Danish healthcare system.
+The Acknowledgement is send as a message and therfore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed.
+The Acknowledge message is released when the receiving system receives the sent message from the sending system.
+
+The Acknowledgement FHIR standard contains following profiles: 
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
+
+
+ ; standard is developed by [MedCom](https://www.medcom.dk/). 
+
+
+
+Acknowledgement in message based exchange of data in Danish healthcare. A MedCom Acknowledgement message corresponds to a receipt of a delivered message, and is used to keep track of the messages. Every MedCom FHIR message shall be acknowledged with a MedCom Acknowledgement message, as it holds information about how the delivery of the message went.
+
+
+
+
 
 *Short description concerning the purpose of the standard. Remember to include both the English and Danish name of the standard.*
 
