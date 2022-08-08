@@ -7,7 +7,7 @@
 # Profiles in the Acknowledgement Standard
 In total three profiles form MedComCore IG and MedComMessaging IG and MedCom Acknowledgement Ig contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
+.tg  {border-collapse:collapse;border-spacing:0;max-width:80%}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -17,6 +17,7 @@ In total three profiles form MedComCore IG and MedComMessaging IG and MedCom Ack
 .tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 1256px">
+<caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in Acknowledgement standard</caption>
 <colgroup>
 <col style="width: 277px">
 <col style="width: 114px">
