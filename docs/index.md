@@ -2,7 +2,7 @@
 
 # MedCom Acknowledgement - WORK IN PROGRESS! 
 <!-- HomePage -->
-This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message  and inform how it was received in the Danish healthcare system. That is, did the original message comply with the profile and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
+This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message, and inform how it was received in the Danish healthcare system, that is, did the original message comply with the profile, and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
 The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a> &
 <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
 
@@ -48,9 +48,11 @@ Below can the use cases in Danish and English be found:
 [English: Use cases](assets/documents/UseCases-ENG.md) 
 
 ### 1.2 Implementation Guide
-The technical specifications for the Acknowledgement standard are defined in IGs. As mentioned previously is the Acknowledgement standard composed by profiles from *NUMBER* IGs and terminology from one IG. Links to the IG’s are listed below:
-
-  * *Insert link to ImplemantationGuides*
+The technical specifications for the Acknowledgement standard are defined in IGs. As mentioned previously is the Acknowledgement standard composed by profiles from three IGs and terminology from one IG. Links to the IG’s are listed below:
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>
+*	<a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank">MedCom Core IG</a>
+*	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a>
+*	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
 IGs might be difficult for people with little or no knowledge about FHIR and how to understand an IG. Therefore has MedCom developed a webpage describing the content of the Acknowledgement standard. The link below gives an overview of which profiles are included, what their purpose are, and which elements that shall be supported in a system. Further the structure of the standard is described and supported with examples in different degree of technical skills.
