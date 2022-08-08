@@ -48,9 +48,8 @@ Below can the use cases in Danish and English be found:
 [English: Use cases](assets/documents/UseCases-ENG.md) 
 
 ### 1.2 Implementation Guide
-The technical specifications for the Acknowledgement standard are defined in IGs. As mentioned previously is the Acknowledgement standard composed by profiles from three IGs and terminology from one IG. Links to the IG’s are listed below:
+The technical specifications for the Acknowledgement standard are defined in IGs. As mentioned previously is the Acknowledgement standard composed by profiles from two IGs and terminology from one IG. Links to the IG’s are listed below:
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>
-*	<a href="https://medcomdk.github.io/dk-medcom-core/" target="_blank">MedCom Core IG</a>
 *	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a>
 *	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
