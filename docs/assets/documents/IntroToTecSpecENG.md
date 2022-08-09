@@ -1,10 +1,17 @@
 [Return](../../index.md)
 # Introduction to the Technical Content
+  > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
 
-> In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
+
+**Table of Content**
+* [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
+* [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
+* [3 Release Notes](#3-release-notes)
+<br>
+<br>
 
 
-# Profiles in the Acknowledgement Standard
+# 1 Profiles in the Acknowledgement Standard
 In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
 
 <style type="text/css">
@@ -52,7 +59,7 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
   <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
     <td class="tg-hrrh">Organization</td>
-    <td class="tg-hrrh">Inherits from MedComCoreOrganization<br><br>Information useful to identify an organization. In a Acknowledgment message it is used to describe the sender and receiver organizations.<br></td>
+    <td class="tg-hrrh">Inherits from MedComCoreOrganization<br><br>Information useful to identify an organization. In a Acknowledgement message it is used to describe the sender and receiver organizations.<br></td>
     <td class="tg-hrrh">Identifier (SOR-id)<br>Identifier (EAN/GLN-id)<br>Name</td>
     <td class="tg-hrrh">MedComMessaging</td>
   </tr>
@@ -66,6 +73,14 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 </tbody>
 </table>
 
+# 2 General Acknowledgement Messaging Model
+The <a href="Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedComs FHIR messaging structure</a> except from the carbon-copy destination, that is not allowed. 
 
-# Release Notes
+<figure>
+<img src="../images/HospitalNotification.png" alt="Show references between the profiles in an HospitalNotification message." style="width:40%" id="Fig1">
+<figcaption text-align="center"><b>Figure 1: Structure of the HospitalNotification message </b> </figcaption>
+</figure>
+<br><br>
+
+# 3 Release Notes
 [Updates in the latest release.](../../ReleaseNoteTechSpec.md)
