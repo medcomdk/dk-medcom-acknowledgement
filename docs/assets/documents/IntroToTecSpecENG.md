@@ -36,28 +36,28 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 </thead>
 <tbody>
   <tr>
-    <td class="tg-hrrh">MedComAcknowledgementMessage</td>
+    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a></td>
     <td class="tg-hrrh">Bundle</td>
     <td class="tg-hrrh">Inherits from MedComMessagingMessage</td>
     <td class="tg-hrrh">Message Id<br>Timestrap<br>Reference to all included profiles</td>
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
-    <td class="tg-hrrh">   <br>MedComAcknowledgementMessageHeader   </td>
+    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>    </td>
     <td class="tg-hrrh">MessageHeader</td>
     <td class="tg-hrrh">The header of a message that shall be of  the type MedComAcknowledgementMessageHeader. <br><br>Inherits from MedComMessagingMessageHeader</td>
     <td class="tg-hrrh">MessagHeader id<br>Narrative text<br>Type of message<br>Sender Organization<br>Receiver Organization<br><br></td>
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
-    <td class="tg-hrrh">MedComMessagingOrganization</td>
+    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
     <td class="tg-hrrh">Organization</td>
     <td class="tg-hrrh">Inherits from MedComCoreOrganization<br>Information useful to identify an organization. In a Acknowledgment message it is used to describe the sender and receiver organizations<br></td>
     <td class="tg-hrrh">Identifier (SOR-id)<br>Identifier (EAN/GLN-id)<br>Name</td>
     <td class="tg-hrrh">MedComMessaging</td>
   </tr>
   <tr>
-    <td class="tg-hrrh">MedComMessagingProvenance</td>
+    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a></td>
     <td class="tg-hrrh">Provenance</td>
     <td class="tg-hrrh">Describes the activity and history of a message. It<br>includes a reference to the target which is the MedComMessageHeader. </td>
     <td class="tg-hrrh">Target<br>Timestamps<br>Activity<br>Actors<br>Reference to the previous message</td>
