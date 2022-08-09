@@ -59,10 +59,9 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 [An introduction to the technical specifications can be found here.](assets/documents/IntroToTecSpecENG.md)
 
 ## 2 Test and Certification
+Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. Find a general description of MedCom test and certification proces <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> here.</a> The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
 
-Find a general description of MedCom test and certification [here](https://tmsmedcom.github.io/GitHubPagesTest/#test-and-certification). 
-
-**Sending a HospitalNotification message**
+<!-- **Sending a HospitalNotification message**
   * Testprotocol
   * TouchStone Testscripts
 <p>&nbsp;</p>
@@ -70,7 +69,7 @@ Find a general description of MedCom test and certification [here](https://tmsme
 **Receiving a HospitalNotification message**
   * Testprotocol
   * TouchStone Testscripts
-<p>&nbsp;</p>
+<p>&nbsp;</p> -->
 
 ## 3 Release Notes
 
