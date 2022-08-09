@@ -43,16 +43,16 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
     <td class="tg-on52">MedComAcknowledgment</td>
   </tr>
   <tr>
-    <td class="tg-on52">MedComAcknowledgmentMessageHeader</td>
+    <td class="tg-on52">MedComAcknowledgementMessageHeader</td>
     <td class="tg-on52">MessageHeader</td>
-    <td class="tg-on52">The header of a message that shall be of&nbsp;&nbsp;the type MedComAcknowledgmentMessageHeader. <br><br>Inherits from MedComMessagingMessageHeader</td>
+    <td class="tg-on52">The header of a message that shall be of&nbsp;&nbsp;the type MedComAcknowledgementMessageHeader. <br><br>Inherits from MedComMessagingMessageHeader</td>
     <td class="tg-on52">MessagHeader id<br>Narrative text<br>Type of message<br>Sender Organization<br>Receiver Organization<br><br></td>
     <td class="tg-on52">MedComAcknowledgment</td>
   </tr>
   <tr>
     <td class="tg-on52">MedComMessagingeOrganization</td>
     <td class="tg-on52">Organization</td>
-    <td class="tg-on52">Information useful to identify an organization. In a Acknowledgement message it is used to describe the service provider organization <br></td>
+    <td class="tg-on52">Information useful to identify an organization. In a Acknowledgement message it is used to describe the sender and receiver organizations. <br></td>
     <td class="tg-on52">Identifier (SOR-id)<br>Identifier (EAN/GLN-id)<br>Name</td>
     <td class="tg-on52">MedComMessaging</td>
   </tr>
