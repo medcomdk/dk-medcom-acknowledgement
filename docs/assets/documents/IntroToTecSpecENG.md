@@ -77,13 +77,9 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 The <a href="Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedComs FHIR messaging structure</a> except from the carbon-copy destination, that is not allowed. 
 
 <figure>
-<img src="input/images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:40%" id="Fig1">
+<img src="../images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:40%" id="Fig1">
 <figcaption text-align="center"><b>Figure 1: Structure of the HospitalNotification message </b> </figcaption>
 </figure>
-<br><br>
-
-
-
 
 
 # 3 Release Notes
