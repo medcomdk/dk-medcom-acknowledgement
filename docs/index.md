@@ -9,7 +9,7 @@ The standard will in time replace the existing standards called <a href="http://
 The Acknowledgement FHIR standard contains following profiles: 
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
-
+<br>
  
 **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
@@ -39,8 +39,7 @@ Below can the clinical guidelines in Danish and English be found:
 
 ### 1.1 Use Cases
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Acknowledgement. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
-
-The use cases for HospitalNotification are qualified in collaboration with EPR- and vendors catering to the municipalities.
+The use cases for Acknowledgement are qualified in collaboration with EPR- and vendors catering to the municipalities.
 
 Below can the use cases in Danish and English be found:
 
