@@ -13,7 +13,7 @@
 In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
 
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;max-width:80%}
+.tg  {border-collapse:collapse;border-spacing:0;max-width:70%}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;

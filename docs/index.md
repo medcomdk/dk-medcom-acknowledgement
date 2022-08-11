@@ -1,8 +1,8 @@
 <a href="https://medcomdk.github.io/MedComLandingPage/">Return</a>
-
-# MedCom Acknowledgement - WORK IN PROGRESS! 
 <!-- HomePage -->
-**Table of Content**
+
+# MedCom Acknowledgement  
+
 * [1 Standard Documentation](#1-standard-documentation)
   * [1.1 Use Cases](#11-use-cases)
   * [1.2 Implementation Guide](#12-implementation-guide)
@@ -12,6 +12,7 @@
 <br>
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+<br>
 This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message, and inform how it was received in the Danish healthcare system, that is, did the original message comply with the profile, and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
 The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a> &
 <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
