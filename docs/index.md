@@ -21,7 +21,8 @@ The Acknowledgement FHIR standard contains following profiles:
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
 <br>
- 
+<br>
+
 ## 1 Standard Documentation 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Acknowledgement message, what to implement and how to get a MedCom certificate. The standard documentation for Acknowledgement includes:
   * Use cases
