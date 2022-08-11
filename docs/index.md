@@ -2,15 +2,6 @@
 
 # MedCom Acknowledgement - WORK IN PROGRESS! 
 <!-- HomePage -->
-This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message, and inform how it was received in the Danish healthcare system, that is, did the original message comply with the profile, and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
-The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a> &
-<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
-
-The Acknowledgement FHIR standard contains following profiles: 
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
-<br>
- 
 **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
   * [1.1 Use Cases](#11-use-cases)
@@ -21,13 +12,20 @@ The Acknowledgement FHIR standard contains following profiles:
 <br>
 
 > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
+This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message, and inform how it was received in the Danish healthcare system, that is, did the original message comply with the profile, and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
+The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a> &
+<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
 
+The Acknowledgement FHIR standard contains following profiles: 
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
+* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
+<br>
+ 
 ## 1 Standard Documentation 
 The standard documentation below provides the necessary content to understand the needs for modernization, the role of the Acknowledgement message, what to implement and how to get a MedCom certificate. The standard documentation for Acknowledgement includes:
   * Use cases
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
 <p>&nbsp;</p>
-
 <!-- ### 1.1 Clinical Guidelines 
 
 The clinical guidelines is the foundation for the *STANDARDNAME* standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for *STANDARDNAME*. It is important for both implementers and business specialists to understand the clinical guidelines to ensure that the implemented standard supports the requirements.
@@ -58,7 +56,9 @@ IGs might be difficult for people with little or no knowledge about FHIR and how
 [An introduction to the technical specifications can be found here.](assets/documents/IntroToTecSpecENG.md)
 
 ## 2 Test and Certification
-Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. <br><a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> Find a general description of MedCom test and certification proces here.</a> 
+Certification of a system implies both an approved testprotocol and run-trough of TouchStone testscripts. TouchStone describes an infrastructure that allows for automated test and validation against the IGs developes by MedCom. 
+<br>
+<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> Find a general description of MedCom test and certification proces here.</a> 
 
 The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
 
