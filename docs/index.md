@@ -12,7 +12,7 @@
 <br>
 
   > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
-<br>
+<br><br>
 
 
 This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message, and inform how it was received in the Danish healthcare system, that is, did the original message comply with the profile, and was the receiving system able to save the message data into the system. The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
@@ -30,8 +30,8 @@ The standard documentation below provides the necessary content to understand th
   * Use cases
   * Technical Specifications in terms of the relevant IGs and clinical introduction to the content of the IG.
 <p>&nbsp;</p>
-<!-- ### 1.1 Clinical Guidelines 
 
+<!-- ### 1.1 Clinical Guidelines 
 The clinical guidelines is the foundation for the *STANDARDNAME* standard. It describes the clinical needs for the modernization, the requirement for the content of the standard and how the standard supports the business requirements. It is the primary textual part of the documentation for *STANDARDNAME*. It is important for both implementers and business specialists to understand the clinical guidelines to ensure that the implemented standard supports the requirements.
 
 Below can the clinical guidelines in Danish and English be found:
