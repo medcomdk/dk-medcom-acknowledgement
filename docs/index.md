@@ -1,13 +1,14 @@
-<a href="https://medcomdk.github.io/MedComLandingPage/">Return</a>
+<!-- <a href="https://medcomdk.github.io/MedComLandingPage/">Return</a> -->
 <!-- HomePage -->
 
 # MedCom Acknowledgement  
-
+ **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
   * [1.1 Use Cases](#11-use-cases)
   * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
 * [3 Release Notes](#3-release-notes)
+<hr/>
 <br>
 <br>
 
