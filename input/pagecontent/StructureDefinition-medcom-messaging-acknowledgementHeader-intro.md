@@ -1,6 +1,10 @@
 ### Scope and usage 
 This profile is used as the MessageHeader resource for the MedCom Acknowledgement message. 
-Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComAcknowledgementMessageHeader not allow for a receiver of the type carbon-copy and it require a respons code, which includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in respons code *ok*. For further description about the latter, see section below.   
+Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComAcknowledgementMessageHeader not allow for a receiver of the type carbon-copy and the profile requires a respons code. This code includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in respons code *ok*.   
+
+Below can the structure of a MedCom AcknowledgementMessageHeader be seen.
+
+<img alt="The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./AcknowledgementMessageHeader.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
 Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComAcknowledgementMessageHeader.
 
@@ -16,4 +20,4 @@ ok | OK | The message was accepted and processed without error. | AA | Applicati
 fatal-error | Fatal Error | The message was rejected because of a problem with the content. There is no point in re-sending without change. The response narrative SHALL describe the issue. | AE | Application Acknowledgement Error | Receiving application found error in processing message. Sending error response with additional error detail information.
 transient-error | Transient Error | Some internal unexpected error occurred - wait and try again. Note - this is usually used for things like database unavailable, which may be expected to resolve, though human intervention may be required. | AR | Application Acknowledgement Reject | Receiving application failed to process message for reason unrelated to content or format. Original message sender must decide on whether to automatically send message again.
 
-Please go to this definition of [operationoutcome](http://hl7.org/fhir/R4/operationoutcome.html#resource "operationoutcome") to get informed how and when to use if the code response is different from "OK".
+Please go to this definition of [OperationOutcome](http://hl7.org/fhir/R4/operationoutcome.html#resource) to get informed how and when to use if the code response is different from "OK".

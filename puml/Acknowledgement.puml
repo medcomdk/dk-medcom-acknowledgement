@@ -1,0 +1,19 @@
+@startuml MedComAcknowledgementMessage
+
+hide empty members
+
+class "MedComAcknowledgementMessage" as message <<MedComMessagingMessage>>
+class "MedComAcknowledgementMessageHeader" as messageHeader <<MedComMessagingMessageHeader>>
+class "MedComMessagingOrganization" as organization <<MedComCoreOrganization>>
+class "MedComMessagingProvenance" as provenance
+class "OperationOutcome" as outcome
+
+message --> messageHeader : "entry"
+message --> provenance : "entry"
+provenance --> messageHeader : "target"
+provenance --> organization : "agent.who"
+
+messageHeader --> organization : "sender"
+messageHeader --> organization : "receiver"
+messageHeader --> outcome : "response.details"
+@enduml

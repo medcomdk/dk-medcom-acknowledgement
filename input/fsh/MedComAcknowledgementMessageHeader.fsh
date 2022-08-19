@@ -14,7 +14,7 @@ Instance: ff9055ec-b1f1-48b6-933a-063dff0a6faf
 InstanceOf: MedComAcknowledgementMessageHeader
 Title: "Acknowledgement MessageHeader -  empty message"
 Description: "Acknowledgement MessageHeader - empty message. Valid only if used in a Bundle (message)."
-Usage: #example
+Usage: #inline
 * destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
 * eventCoding = $MessageEvents#acknowledgment-message
 * destination[primary].endpoint = "http://medcom.dk/unknown"
@@ -83,7 +83,7 @@ Title: "Example of an error operationOutcome"
 Description: "Example of an error operationOutcome. Valid only if used in a Bundle (message)."
 * issue.severity = $ServerityCode#information
 * issue.code =  $CodeCode#structure
-* issue.diagnostics = "Invalid messages from your system"
+* issue.diagnostics = "Invalid messages from sender system"
 * issue.expression = "Bundle.meta"
 
 Instance: d0055484-2a56-4da2-81b8-a9d5087d865c
