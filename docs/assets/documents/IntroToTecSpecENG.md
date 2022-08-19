@@ -1,11 +1,11 @@
 [Return](../../index.md)
 # Introduction to the Technical Content
+<hr/>
+
  **Table of Content**
 * [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
-* [3 Release Notes](#3-release-notes)
-<br>
-<br>
+<hr/>
 
  > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
 
@@ -74,12 +74,10 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 >Note:The Acknowledgement standard is inherited from MedCom Messaging, therefore a detailed description of the must support elements can be found on <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank"> technical content of MedCom Messaging.</a>  
 
 # 2 General Acknowledgement Messaging Model
-The <a href="Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except from the carbon-copy destination, that is not allowed. 
+The <a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except from the carbon-copy destination, that is not allowed. 
 
 <figure>
 <img src="../Images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:50%" id="Fig1">
 <figcaption text-align="center"><b>Figure 1: Structure of the Acknowledgement message </b> </figcaption>
 </figure>
 
-# 3 Release Notes
-[Updates in the latest release.](../../ReleaseNoteTechSpec.md)
