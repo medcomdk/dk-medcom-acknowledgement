@@ -3,12 +3,13 @@
 
 # MedCom Acknowledgement  
 <hr/>
+
  **Table of Content**
 * [1 Standard Documentation](#1-standard-documentation)
   * [1.1 Use Cases](#11-use-cases)
   * [1.2 Implementation Guide](#12-implementation-guide)
 * [2 Test and Certification](#2-test-and-certification)
-* [3 Release Notes](#3-release-notes)
+
 <hr/>
 
   > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will be in English.
@@ -63,7 +64,7 @@ Certification of a system implies both an approved testprotocol and run-trough o
 <br>
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> Find a general description of MedCom test and certification proces here.</a> 
 
-The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.
+<b>The testprotocols and testscripts are currently in preparation. As soon as the tesprotocols and testscripts are reday, they will be presented below.</b>
 
 <!-- **Sending a HospitalNotification message**
   * Testprotocol
