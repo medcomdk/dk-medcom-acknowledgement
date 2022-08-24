@@ -76,6 +76,3 @@ Certification of a system implies both an approved testprotocol and run-trough o
   * TouchStone Testscripts
 <p>&nbsp;</p> -->
 
-## 3 Release Notes
-
-[Updates in the latest release.](assets/documents/ReleaseNote-ENG.md)
