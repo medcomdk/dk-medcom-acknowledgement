@@ -6,7 +6,7 @@ class "MedComAcknowledgementMessage" as message <<MedComMessagingMessage>>
 class "MedComAcknowledgementMessageHeader" as messageHeader <<MedComMessagingMessageHeader>>
 class "MedComMessagingOrganization" as organization <<MedComCoreOrganization>>
 class "MedComMessagingProvenance" as provenance
-class "OperationOutcome" as outcome
+class "MedComAcknowledgementOperationOutcome" as outcome
 
 message --> messageHeader : "entry"
 message --> provenance : "entry"

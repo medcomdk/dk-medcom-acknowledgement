@@ -3,7 +3,7 @@
 hide empty members
 
 class "MedComAcknowledgementMessageHeader" as messageHeader <<MedComMessagingMessageHeader>>
-class "OperationOutcome" as outcome
+class "MedComAcknowledgementOperationOutcome" as outcome
 class "MedComMessagingOrganization" as organization <<MedComCoreOrganization>>
 
 messageHeader --> outcome : "response.details"

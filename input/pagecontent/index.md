@@ -21,7 +21,12 @@ A [MedComAcknowledgmentMessage](https://build.fhir.org/ig/medcomdk/dk-medcom-ack
 
 [MedComAcknowledgmentMessageHeader](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html) is inherited from [MedComMessagingMessageHeader](https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-messageHeader.html), and constrains the profile as carbon-copy is not allowed and it requires a respones code, which states if the delivery of the message went well or not.
 
-An Acknowledgment message is required in MedCom FHIR Messaging and follows the recommandations from HL7 FHIR ValueSet [response-code](http://hl7.org/fhir/R4/valueset-response-code.html). Further it is allowed to include an OperationOutcome resource, to describe an error-message.
+An Acknowledgment message is required in MedCom FHIR Messaging and follows the recommandations from HL7 FHIR ValueSet [response-code](http://hl7.org/fhir/R4/valueset-response-code.html). 
+
+#### MedComAcknowledgmentOperationOutcome
+
+[MedComAcknowledgmentOperationOutcome](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html) shall be included in the bundle when the MessageHeader.response.code is different from 'ok'. It contains a description of the error and the severity of the error.
+
 
 #### Terminology
 On [MedCom Terminology IG](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/) all referenced CodeSystem and ValueSets developed by MedCom can be found.

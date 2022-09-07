@@ -7,3 +7,5 @@ Alias: $AcknowledgementCode = http://hl7.org/fhir/ValueSet/Acknowledgement-code
 Alias: $ServerityCode = http://hl7.org/fhir/issue-severity
 Alias: $CodeCode = http://hl7.org/fhir/issue-type
 Alias: $ActivityCode = http://medcomfhir.dk/fhir/dk-medcom-terminology/CodeSystem/medcom-messaging-activityCodes
+Alias: $IssueValues = http://medcomfhir.dk/fhir/dk-medcom-terminology/ValueSet/medcom-acknowledgement-issue-details
+Alias: $IssueCodes = http://medcomfhir.dk/fhir/dk-medcom-terminology/CodeSystem/medcom-acknowledgement-issue-details
