@@ -5,6 +5,12 @@ Description: "Base resource for all MedCom Acknowledgement messages."
 * obeys medcom-messaging-3
 * obeys medcom-messaging-4
 * entry ^short = "Message content (MedComAcknowledgementMessageHeader, MedComMessagingProvenance, MedComMessagingOrganization) - Open"
+* obeys medcom-acknowledgement-1
+
+Invariant: medcom-acknowledgement-1
+Description: "If the response.code is different than 'ok', a reference to an OperationOutcome resource shall be included."
+Severity: #error
+Expression: "iif(entry.resource.ofType(MessageHeader).response.code = 'ok', true, entry.resource.ofType(MessageHeader).response.code != 'ok' and entry.resource.ofType(OperationOutcome).exists())"
 
 Invariant: medcom-messaging-3
 Description: "The message header shall conform to medcom-messaging-acknowledgementHeader profile"
@@ -51,8 +57,8 @@ Usage: #example
 * entry[=].resource = d7056980-a8b2-42aa-8a0e-c1fc85d1f40d
 * entry[+].fullUrl = "Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
 * entry[=].resource = 74cdf292-abf3-4f5f-80ea-60a48013ff6d
-* entry[+].fullUrl = "OperationOutcome/4ecb2a8e-3a68-4083-910e-811296affd43"
-* entry[=].resource = 4ecb2a8e-3a68-4083-910e-811296affd43
+* entry[+].fullUrl = "OperationOutcome/becb2a8e-3a68-4083-910e-811296affd43"
+* entry[=].resource = becb2a8e-3a68-4083-910e-811296affd43
 
 
 Instance: c9c2b2f6-0807-11ed-861d-0242ac120002
@@ -72,5 +78,5 @@ Usage: #example
 * entry[=].resource = d7056980-a8b2-42aa-8a0e-c1fc85d1f40d
 * entry[+].fullUrl = "Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
 * entry[=].resource = 74cdf292-abf3-4f5f-80ea-60a48013ff6d
-* entry[+].fullUrl = "OperationOutcome/d0055484-2a56-4da2-81b8-a9d5087d865c"
-* entry[=].resource = d0055484-2a56-4da2-81b8-a9d5087d865c
+* entry[+].fullUrl = "OperationOutcome/c0055484-2a56-4da2-81b8-a9d5087d865c"
+* entry[=].resource = c0055484-2a56-4da2-81b8-a9d5087d865c

@@ -55,6 +55,13 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
+    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome .html" target="_blank">MedComAcknowledgementOperationOutcome</a>    </td>
+    <td class="tg-hrrh">OperationOutcome</td>
+    <td class="tg-hrrh">Includes a detailed description of the error and the severity of the error. It shall always be included when an error occurs in the message exchange.</td>
+    <td class="tg-hrrh">Severity of the error<br>Error code<br>Detailed error description<br></td>
+    <td class="tg-hrrh">MedComAcknowledgement</td>
+  </tr>
+  <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
     <td class="tg-hrrh">Organization</td>
     <td class="tg-hrrh">Inherits from MedComCoreOrganization<br><br>Information useful to identify an organization. In a Acknowledgement message it is used to describe the sender and receiver organizations.<br></td>
@@ -72,6 +79,10 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 </table>
 
 >Note:The Acknowledgement standard is inherited from MedCom Messaging, therefore a detailed description of the must support elements can be found on <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank"> technical content of MedCom Messaging.</a>  
+
+## 1.1 Codes for Detailed Error Description
+
+The ValueSet used for detailed error description, in the element OperationOutCome.issue.details.coding, is currently fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes. 
 
 # 2 General Acknowledgement Messaging Model
 The <a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except from the carbon-copy destination, that is not allowed. 

@@ -8,7 +8,7 @@ Description: "A resource that describes a reponse to a message that is exchanged
 * response.code MS
 * response.details MS
 * response.details ^definition = "Shall contain identified hints/warnings/error in case the code is transient-error or fatal-error"
-
+* response.details only Reference(MedComAcknowledgementOperationOutcome)
 
 Instance: ff9055ec-b1f1-48b6-933a-063dff0a6faf
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -37,7 +37,7 @@ Usage: #example
 * source.endpoint = "http://medcomfhir.dk/unknown"
 * response.identifier = "53128d9b-cede-4c7f-8904-809eab322d7d"
 * response.code = $AcknowledgementCode#fatal-error
-* response.details = Reference(4ecb2a8e-3a68-4083-910e-811296affd43)
+* response.details = Reference(becb2a8e-3a68-4083-910e-811296affd43)
 
 Instance: aba2d9bf-2c6c-47e8-bce4-7928bcd51019
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -66,33 +66,5 @@ Usage: #example
 * source.endpoint = "http://medcomfhir.dk/unknown"
 * response.identifier = "53128d9b-cede-4c7f-8904-809eab322d7d"
 * response.code = $AcknowledgementCode#transient-error
-* response.details = Reference(d0055484-2a56-4da2-81b8-a9d5087d865c)
-
-Instance: 4ecb2a8e-3a68-4083-910e-811296affd43
-InstanceOf: OperationOutcome
-Title: "Example of an error operationOutcome"
-Description: "Example of an error operationOutcome. Valid only if used in a Bundle (message)."
-* issue.severity = $ServerityCode#error
-* issue.code =  $CodeCode#structure
-* issue.diagnostics = "Error parsing resource XML"
-* issue.expression = "Bundle.meta"
-
-Instance: e87bc9d4-f876-4b6f-8585-40b26dc1e369
-InstanceOf: OperationOutcome
-Title: "Example of an error operationOutcome"
-Description: "Example of an error operationOutcome. Valid only if used in a Bundle (message)."
-* issue.severity = $ServerityCode#information
-* issue.code =  $CodeCode#structure
-* issue.diagnostics = "Invalid messages from sender system"
-* issue.expression = "Bundle.meta"
-
-Instance: d0055484-2a56-4da2-81b8-a9d5087d865c
-InstanceOf: OperationOutcome
-Title: "Example of an error operationOutcome"
-Description: "Example of an error operationOutcome. Valid only if used in a Bundle (message)."
-* issue.severity = $ServerityCode#error
-* issue.code =  $CodeCode#structure
-* issue.diagnostics = "Error parsing resource XML"
-* issue.expression = "Bundle.meta"
-
+* response.details = Reference(c0055484-2a56-4da2-81b8-a9d5087d865c)
 
