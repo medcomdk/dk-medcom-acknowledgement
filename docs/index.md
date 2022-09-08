@@ -41,12 +41,13 @@ Below can the clinical guidelines in Danish and English be found:
 
 ### 1.1 Use Cases
 Use cases describe the different scenarios a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Acknowledgement. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
-The use cases for Acknowledgement are qualified in collaboration with EPR- and vendors catering to the municipalities.
 
-Below can the use cases in Danish and English be found:
+The use cases for the acknowledgement are part of technical usescasese for MedComMessaging. 
+<a href="https://medcomtest.sharepoint.com/sites/FHIR-ModerniseringafMedComStandarder/Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2FFHIR%2DModerniseringafMedComStandarder%2FDelte%20dokumenter%2FArbejde%20med%20use%20case%20skabelon%2FGenerelle%20tekniske%20use%20cases%20v1%2E0%2E0%2Drc%2E1%2Epdf&parent=%2Fsites%2FFHIR%2DModerniseringafMedComStandarder%2FDelte%20dokumenter%2FArbejde%20med%20use%20case%20skabelon&p=true&wdLOR=c639CCA73%2D6C01%2D41CA%2DA05C%2D0E8385E7C85B&ct=1660113451968&or=Outlook-Body&cid=D6A4ACBD-5C6D-468E-95D3-DFF450AAAD62&ga=1" target="_blank">Click here to read the use cases for the Acknowledgement.</a>  
+<!-- Below can the use cases in Danish and English be found: -->
 
-[Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
-[English: Use cases](assets/documents/UseCases-ENG.md) 
+<!-- [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
+[English: Use cases](assets/documents/UseCases-ENG.md)  -->
 
 ### 1.2 Implementation Guide
 The technical specifications for the Acknowledgement standard are defined in IGs. As mentioned previously is the Acknowledgement standard composed by profiles from two IGs and terminology from one IG. Links to the IG’s are listed below:
