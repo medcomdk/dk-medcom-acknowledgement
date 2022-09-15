@@ -7,10 +7,10 @@
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
 <hr/>
 
- > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepandies.
+ > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
 # 1 Profiles in the Acknowledgement Standard
-In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short describtion of each profile can be seen in the table below. 
+Two profiles form MedComMessaging IG, and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short description of each profile can be seen in the table below. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:70%}
@@ -22,7 +22,7 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 .tg .tg-hrrh{background-color:#ffffff;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
 <table class="tg" style="undefined;table-layout: fixed; width: 1281px">
-<caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in Acknowledgement standard</caption>
+<caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in the Acknowledgement standard</caption>
 <colgroup>
 <col style="width: 291px">
 <col style="width: 115px">
@@ -78,14 +78,14 @@ In total two profiles form MedComMessaging IG and MedCom Acknowledgement IG cont
 </tbody>
 </table>
 
->Note:The Acknowledgement standard is inherited from MedCom Messaging, therefore a detailed description of the must support elements can be found on <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank"> technical content of MedCom Messaging.</a>  
+>Note:The Acknowledgement standard is inherited from MedCom Messaging.Therefore a detailed description of the MustSupport elements can be found on the <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank"> technical content of MedCom Messaging.</a>  
 
 ## 1.1 Codes for Detailed Error Description
 
 The ValueSet used for detailed error description, in the element OperationOutCome.issue.details.coding, is currently fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes. 
 
 # 2 General Acknowledgement Messaging Model
-The <a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message.The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except from the carbon-copy destination, that is not allowed. 
+<a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message. The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except  the carbon-copy destination, which is not allowed. 
 
 <figure>
 <img src="../Images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:50%" id="Fig1">
