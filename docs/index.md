@@ -12,13 +12,13 @@
 
 <hr/>
 
-  > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will solely be in English.
-<br>
+  <!-- > Clinical guidelines for application and use cases are in both Danish and English. The remaining documentation will solely be in English.
+<br> -->
 
-This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Danish: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message and inform how it was received in the Danish healthcare system.Thus, did the original message comply with the profile, and was the receiving system able to save the message data into the system?
+This page presents MedCom's Acknowledgement FHIR&reg;&copy; standard (Danish: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message and inform how it was received in the Danish healthcare system.Thus, did the original message comply with the profile, and was the receiving system able to save the message data into the system?
 The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
-The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO2</a> and
-<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
+The standard will in time replace the existing; EDIFACT<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO1, CTL02 AND clt</a> and
+<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO1</a>.
 
 The Acknowledgement FHIR standard contains the following profiles: 
 * <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
