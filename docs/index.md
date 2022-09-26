@@ -15,7 +15,7 @@
   > Clinical guidelines and use cases are in both Danish and English. The remaining documentation will solely be in English.
 <br>
 
-This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Dansk: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message and inform how it was received in the Danish healthcare system.Thus, did the original message comply with the profile, and was the receiving system able to save the message data into the system?
+This page presents [MedCom's](https://www.medcom.dk/) Acknowledgement FHIR&reg;&copy; standard (Danish: Kvittering). The purpose of the standard is to respond to the reception of the original sent FHIR message and inform how it was received in the Danish healthcare system.Thus, did the original message comply with the profile, and was the receiving system able to save the message data into the system?
 The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
 The standard will in time replace the existing standards called <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO2</a> and
 <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO2</a>.
@@ -44,7 +44,7 @@ Below can the clinical guidelines in Danish and English be found:
 Use cases describe the different scenarios in which a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Acknowledgement. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions and municipalities.
 
 The use cases for the acknowledgement are part of technical usescasese for MedComMessaging. 
-<a href="https://medcomtest.sharepoint.com/sites/FHIR-ModerniseringafMedComStandarder/Delte%20dokumenter/Forms/AllItems.aspx?id=%2Fsites%2FFHIR%2DModerniseringafMedComStandarder%2FDelte%20dokumenter%2FArbejde%20med%20use%20case%20skabelon%2FGenerelle%20tekniske%20use%20cases%20v1%2E0%2E0%2Drc%2E1%2Epdf&parent=%2Fsites%2FFHIR%2DModerniseringafMedComStandarder%2FDelte%20dokumenter%2FArbejde%20med%20use%20case%20skabelon&p=true&wdLOR=c639CCA73%2D6C01%2D41CA%2DA05C%2D0E8385E7C85B&ct=1660113451968&or=Outlook-Body&cid=D6A4ACBD-5C6D-468E-95D3-DFF450AAAD62&ga=1" target="_blank">Click here to read the use cases for the Acknowledgement.</a>  
+<a href="https://medcomdk.github.io/dk-medcom-messaging/#11-uses-cases" target="_blank">Click here to read the use cases for the Acknowledgement.</a>  
 <!-- Below, you can find the use cases both in Danish and English : -->
 
 <!-- [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
