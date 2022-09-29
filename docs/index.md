@@ -57,11 +57,7 @@ The technical specifications for the Acknowledgement standard are defined in IG'
 *	<a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
-<!-- forslag til ændring -->
-<!-- The IG's are targeted people with good knowledge abut FHIR. It can therefore be difficult for people with little or no knowledege about FHIR to understand the IG content. 
-To make it easier to understand the IG's content MedCom has developed af page where you will find  description of the most important information including the overview of the included profiles,  their purpose and which elements the system should support. --> 
-
-Understanding IG's might be difficult for people with little or no knowledge about FHIR.  Therefore, MedCom has developed a page describing the content of the Acknowledgement standard. The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills.
+The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills.
 [Click here to read an introduction to the technical specifications.](assets/documents/IntroToTecSpecENG.md)
 
 
