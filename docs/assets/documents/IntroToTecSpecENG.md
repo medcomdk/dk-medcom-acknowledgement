@@ -1,8 +1,8 @@
 [Return](../../index.md)
-# Introduction to the Technical Content
+# Introduction to the technical specification
 <hr/>
 
- **Table of Content**
+ **Table of contents**
 * [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
 <hr/>
@@ -10,7 +10,7 @@
  > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
 # 1 Profiles in the Acknowledgement Standard
-Two profiles form MedComMessaging IG, and MedCom Acknowledgement IG contributes to the Acknowledgement standard. A short description of each profile can be seen in the table below. 
+The Acknowledgement standard is based on  profiles from, respectively <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a>. A short description of each profile can be seen in the <a href="#Tab1"> Table 1</a>. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:70%}
@@ -21,7 +21,7 @@ Two profiles form MedComMessaging IG, and MedCom Acknowledgement IG contributes 
 .tg .tg-sm6y{background-color:#ffffff;border-color:#000000;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-hrrh{background-color:#ffffff;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 1281px">
+<table class="tg" style="undefined;table-layout: fixed; width: 1281px" id="Tab1">
 <caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in the Acknowledgement standard</caption>
 <colgroup>
 <col style="width: 291px">
@@ -36,7 +36,7 @@ Two profiles form MedComMessaging IG, and MedCom Acknowledgement IG contributes 
     <th class="tg-sm6y">Resource</th>
     <th class="tg-sm6y">Description</th>
     <th class="tg-sm6y">MustSupportelements</th>
-    <th class="tg-sm6y">Implementation Guide Orgin </th>
+    <th class="tg-sm6y">Implementation Guide Origin </th>
   </tr>
 </thead>
 <tbody>
@@ -44,35 +44,35 @@ Two profiles form MedComMessaging IG, and MedCom Acknowledgement IG contributes 
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a></td>
     <td class="tg-hrrh">Bundle</td>
     <td class="tg-hrrh">Inherits from MedComMessagingMessage.</td>
-    <td class="tg-hrrh">Message Id<br>Type<br>Timestamp<br>Reference to all included profiles</td>
+    <td class="tg-hrrh">Id (Message Id)<br>Type<br>Timestamp<br> entry (Reference to all included profiles)</td>
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>    </td>
     <td class="tg-hrrh">MessageHeader</td>
     <td class="tg-hrrh">Inherits from MedComMessagingMessageHeader.<br><br> The header of a message that shall be of the type MedComAcknowledgementMessageHeader.</td>
-    <td class="tg-hrrh">MessagHeader id<br>Narrative text<br>Type of message<br>Sender Organization<br>Receiver Organization<br><br></td>
+    <td class="tg-hrrh">Id (MessagHeader id)<br>Text (Narrative text)<br>eventCoding (Type of message)<br> Sender (Sender Organization)<br>Receiver (Receiver Organization<br>Response identifier (id)<br> Response code</td>
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome .html" target="_blank">MedComAcknowledgementOperationOutcome</a>    </td>
     <td class="tg-hrrh">OperationOutcome</td>
     <td class="tg-hrrh">Includes a detailed description of the error and the severity of the error. It shall always be included when an error occurs in the message exchange.</td>
-    <td class="tg-hrrh">Severity of the error<br>Error code<br>Detailed error description<br></td>
+    <td class="tg-hrrh">Issue Severity (Servity of the error)<br>Issue code (Error code)<br>details (Detailed error description)<br></td>
     <td class="tg-hrrh">MedComAcknowledgement</td>
   </tr>
   <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
     <td class="tg-hrrh">Organization</td>
     <td class="tg-hrrh">Inherits from MedComCoreOrganization<br><br>Information useful to identify an organization. In a Acknowledgement message it is used to describe the sender and receiver organizations.<br></td>
-    <td class="tg-hrrh">Identifier (SOR-id)<br>Identifier (EAN/GLN-id)<br>Name</td>
+    <td class="tg-hrrh">Text (Narrative text)<br>Slices for identifier (SOR-id)<br>Slices for identifier (EAN/GLN-id)<br>Name</td>
     <td class="tg-hrrh">MedComMessaging</td>
   </tr>
   <tr>
     <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a></td>
     <td class="tg-hrrh">Provenance</td>
     <td class="tg-hrrh">Describes the activity and history of a message.<br> It includes a reference to the target which is the MedComMessageHeader. </td>
-    <td class="tg-hrrh">Target<br>Timestamps<br>Activity<br>Actors<br>Reference to the previous message</td>
+    <td class="tg-hrrh">Text (Narrative text)<br>Target<br>OccurredDateTime <br>Timestamps<br>Activity<br>Agent<br>Entity (Reference to the previous message)</td>
     <td class="tg-hrrh">MedComMessaging</td>
   </tr>
 </tbody>
