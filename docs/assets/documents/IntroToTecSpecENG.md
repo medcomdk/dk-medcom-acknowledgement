@@ -6,7 +6,7 @@
 * [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
   * [1.1 Codes for detailed error description](#11-codes-for-detailed-error-description)
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
-<hr/>
+* [3 Timestamps for Acknowledgement message](#3-timestamps-for-acknowledgement-message)
 
  > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
@@ -93,3 +93,16 @@ The ValueSet used for detailed error description, in the element OperationOutCom
 <figcaption text-align="center"><b>Figure 1: Structure of the Acknowledgement message </b> </figcaption>
 </figure>
 
+# 3 Timestamps for Acknowledgement message
+The Acknowledgement message contains three timestamps:
+
+* Bundle.timestamp
+* Provenance.occuredDateTime[x]
+* Provenance.recorded.
+
+The three timestamps are registered at different time during Acknowledgement message generation and sending. The Acknowledgement message is sent when a system receives a FHIR message e.g. when a municipality receives a HospitalNotification message from the hospital, the it-system will evaluate the message. Based on the result from the evaluation, the system will generate an acknowlegement message that represet the evaluation results. This means that if the HospitalNotification is evaluated positive the acknowlegdement is as well positive. Whereas if the HospitalNotification is evaluated negative then a negative Acknowledgement is generated and send. When the acknowledgement message is generated a Bundle.timestamp is registered. When the acknowledgement message is sent the Provenance.occuredDateTime[x] and Provenance.recorded time stamp is registered. Note that the Provenance.occuredDateTime[x] is a human redable, where Provenance.recorded is a system readable. The visualisation of the example can be seen in <a href="#Fig1"> Figure 2</a> 
+
+<figure>
+<img src="../Images/ACK_time_stamp.svg" alt="Show where the timestamps are registered during Acknowledgement message generation and sending " style="width:50%" id="Fig1">
+<figcaption text-align="center"><b>Figure 2: Example: timestamps registration for Acknowledgement message  </b> </figcaption>
+</figure>
