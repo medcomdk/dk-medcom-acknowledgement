@@ -2,7 +2,6 @@
 <!-- HomePage -->
 
 # MedCom Acknowledgement  
-<hr/>
 
  **Table of contents**
 * [1 Standard documentation](#1-standard-documentation)
@@ -10,7 +9,6 @@
   * [1.2 Technical specification](#12-technical-specification)
 * [2 Test and certification](#2-test-and-certification)
 
-<hr/>
 
   <!-- > Clinical guidelines for application and use cases are in both Danish and English. The remaining documentation will solely be in English.
 <br> -->
@@ -46,7 +44,7 @@ The use cases for the acknowledgement are part of technical uses casese for MedC
 [English: Use cases](assets/documents/UseCases-ENG.md)  -->
 
 ### 1.2 Technical specification
-The technical specifications for the Acknowledgement standard is composed by profiles from <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
+The technical specifications for the Acknowledgement standard is composed by profiles from <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>, <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
 The profiles that are part of the technical specification for Acknowledgement FHIR standard are: 
@@ -58,7 +56,7 @@ The profiles that are part of the technical specification for Acknowledgement FH
 <br>
 <br>
 
-The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills.
+The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills. <br>
 [Click here to read an introduction to the technical specifications.](assets/documents/IntroToTecSpecENG.md)
 
 
