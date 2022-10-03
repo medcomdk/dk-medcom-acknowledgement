@@ -7,7 +7,7 @@
  **Table of contents**
 * [1 Standard documentation](#1-standard-documentation)
   * [1.1 Use cases](#11-use-cases)
-  * [1.2 Implementation guide](#12-implementation-guide)
+  * [1.2 Technical specification](#12-technical-specification)
 * [2 Test and certification](#2-test-and-certification)
 
 <hr/>
@@ -45,7 +45,7 @@ The use cases for the acknowledgement are part of technical uses casese for MedC
 <!-- [Danish: Use cases](assets/documents/UseCases-DA.md) <br> 
 [English: Use cases](assets/documents/UseCases-ENG.md)  -->
 
-### 1.2 Implementation guide
+### 1.2 Technical specification
 The technical specifications for the Acknowledgement standard is composed by profiles from <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
