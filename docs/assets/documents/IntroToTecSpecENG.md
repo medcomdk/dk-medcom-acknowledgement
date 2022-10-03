@@ -4,6 +4,7 @@
 
  **Table of contents**
 * [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
+  * [1.1 Codes for detailed error description](#11-codes-for-detailed-error-description)
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
 <hr/>
 
@@ -80,7 +81,7 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
 
 >Note:The Acknowledgement standard is inherited from MedCom Messaging.Therefore a detailed description of the MustSupport elements can be found on the <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank"> technical content of MedCom Messaging.</a>  
 
-## 1.1 Codes for Detailed Error Description
+## 1.1 Codes for detailed error description
 
 The ValueSet used for detailed error description, in the element OperationOutCome.issue.details.coding, is currently fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes. 
 
