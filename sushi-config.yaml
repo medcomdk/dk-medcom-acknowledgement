@@ -1,5 +1,5 @@
-id: dk.fhir.ig.dk-medcom-acknowledgement
-canonical: http://medcomfhir.dk/fhir/acknowledgement
+id: medcom.fhir.dk.acknowledgement
+canonical: http://medcomfhir.dk/ig/acknowledgement
 name: MedComAcknowledgement
 title: "DK MedCom acknowledgement"
 description: The DK MedCom acknowledgement IG
@@ -16,8 +16,8 @@ dependencies:
   hl7.fhir.dk.core:
    uri: https://hl7.dk/fhir/core/2.0.0/
    version: 2.0.0
-  dk.fhir.ig.dk-medcom-core: current
-  dk.fhir.ig.dk-medcom-messaging: current
+  medcom.fhir.dk.core: current
+  medcom.fhir.dk.messaging: current
 
 
 menu:
