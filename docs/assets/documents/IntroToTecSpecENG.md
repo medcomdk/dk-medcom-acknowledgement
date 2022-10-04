@@ -93,16 +93,32 @@ The ValueSet used for detailed error description, in the element OperationOutCom
 <figcaption text-align="center"><b>Figure 1: Structure of the Acknowledgement message </b> </figcaption>
 </figure>
 
-# 3 Timestamps for Acknowledgement message
-The Acknowledgement message contains three timestamps:
+
+
+
+# 3 Example of Acknowledgement message
+The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, respectively transient error and fatal error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
+<figure>
+<img src="../Images/AcknowledgementOK.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig2">
+<figcaption text-align="center"><b>Figure 2: Example of an OK Acknowledgement message </b> </figcaption>
+</figure>
+
+<figure>
+<img src="../Images/AcknowledgementError.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig3">
+<figcaption text-align="center"><b>Figure 3: Example of an Error Acknowledgement message </b> </figcaption>
+</figure>
+
+
+# 4 Timestamps for Acknowledgement message
+The acknowledgement message contains three timestamps:
 
 * Bundle.timestamp
 * Provenance.occuredDateTime[x]
 * Provenance.recorded.
 
-The three timestamps are registered at different time during Acknowledgement message generation and sending. The Acknowledgement message is sent when a system receives a FHIR message e.g. when a municipality receives a HospitalNotification message from the hospital, the it-system will evaluate the message. Based on the result from the evaluation, the system will generate an acknowlegement message that represet the evaluation results. This means that if the HospitalNotification is evaluated positive the acknowlegdement is as well positive. Whereas if the HospitalNotification is evaluated negative then a negative Acknowledgement is generated and send. When the acknowledgement message is generated a Bundle.timestamp is registered. When the acknowledgement message is sent the Provenance.occuredDateTime[x] and Provenance.recorded time stamp is registered. Note that the Provenance.occuredDateTime[x] is a human redable, where Provenance.recorded is a system readable. The visualisation of the example can be seen in <a href="#Fig1"> Figure 2</a> 
+The three timestamps are registered at different time during Acknowledgement message generation and sending. The Acknowledgement message is sent when a system receives a FHIR message e.g. when a municipality receives a HospitalNotification message from the hospital, the it-system will evaluate the message. Based on the result from the evaluation, the system will generate an acknowlegement message that represet the evaluation results. This means that if the HospitalNotification is evaluated positive the acknowlegdement is as well positive. Whereas if the HospitalNotification is evaluated negative then a negative Acknowledgement is generated and send. When the acknowledgement message is generated a Bundle.timestamp is registered. When the acknowledgement message is sent the Provenance.occuredDateTime[x] and Provenance.recorded time stamp is registered. Note that the Provenance.occuredDateTime[x] is a human redable, where Provenance.recorded is a system readable. The visualisation of the example can be seen in <a href="#Fig4"> Figure 4</a> 
 
 <figure>
-<img src="../Images/ACK_time_stamp.svg" alt="Show where the timestamps are registered during Acknowledgement message generation and sending " style="width:50%" id="Fig1">
-<figcaption text-align="center"><b>Figure 2: Example: timestamps registration for Acknowledgement message  </b> </figcaption>
+<img src="../Images/ACK_time_stamp.svg" alt="Show where the timestamps are registered during Acknowledgement message generation and sending " style="width:50%" id="Fig4">
+<figcaption text-align="center"><b>Figure 4: Example of timestamps registration for Acknowledgement message  </b> </figcaption>
 </figure>
