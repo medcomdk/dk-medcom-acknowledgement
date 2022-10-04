@@ -97,7 +97,7 @@ The ValueSet used for detailed error description, in the element OperationOutCom
 
 
 # 3 Example of Acknowledgement message
-The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, respectively transient error and fatal error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
+The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, respectively transient-error and fatal-error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
 <figure>
 <img src="../Images/AcknowledgementOK.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig2">
 <figcaption text-align="center"><b>Figure 2: Example of an OK Acknowledgement message </b> </figcaption>
@@ -105,7 +105,7 @@ The Acknowledgement message can have three different outcomes: one positive (Ok)
 
 <figure>
 <img src="../Images/AcknowledgementError.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig3">
-<figcaption text-align="center"><b>Figure 3: Example of an Error Acknowledgement message </b> </figcaption>
+<figcaption text-align="center"><b>Figure 3: Example of an Fatal-Error Acknowledgement message </b> </figcaption>
 </figure>
 
 
