@@ -5,6 +5,6 @@ __Note:__ Be aware that entries in a message in general are unordered. Recipient
 
 Below can the structure of a MedCom Acknowledgement message be seen.
 
-<img alt="MedComAcknowledgementMessage is the root profile. From this is the MedComMessagingProvenance and MedComAcknowledgementMessageHeader referenced. The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./MedComAcknowledgementMessage.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
+<img alt="MedComAcknowledgementMessage is the root profile. From this is the MedComMessagingProvenance and MedComAcknowledgementMessageHeader referenced. The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./MedComAcknowledgementMessage.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
 Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComAcknowledgementMessage.

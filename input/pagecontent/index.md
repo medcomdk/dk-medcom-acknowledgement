@@ -3,13 +3,13 @@
 
 This implementation guide (IG) is provided by MedCom to describe the use of FHIR &reg;&copy; Acknowledgement in message based exchange of data in Danish healthcare. 
 
-A MedCom Acknowledgement message (Danish: Kvittering) corresponds to a receipt of a delivered message. Every MedCom FHIR message shall be acknowledged with a MedCom Acknowledgement message, as it holds information about how delivery of the message went.
+A MedCom Acknowledgement message (Danish: Kvittering) corresponds to a receipt of a delivered message. Every time a system receives a MedCom FHIR message, e.g. a [HospitalNotification](https://build.fhir.org/ig/medcomdk/dk-medcom-hospitalnotification/) or a [CareCommunication](https://build.fhir.org/ig/medcomdk/dk-medcom-carecommunication/), it shall be acknowledged with a MedCom Acknowledgement message, stating if the transfer was successful and the message validated correctly or not. In other word, does a MedCom Acknowledgement message hold information about how delivery of a message went. MedCom FHIR messaging complies with [reliable messaging and associated governance](https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer), which describes the value and needs of acknowledge all messages. 
 
 #### Acknowlegdement message
 
 The following diagram depicts the structure of the Acknowledgement message.
 
-<img alt="MedComAcknowledgementMessage is the root profile. From this is the MedComMessagingProvenance and MedComAcknowledgementMessageHeader referenced. The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./MedComAcknowledgementMessage.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
+<img alt="MedComAcknowledgementMessage is the root profile. From this is the MedComMessagingProvenance and MedComAcknowledgementMessageHeader referenced. The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./MedComAcknowledgementMessage.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
 The Acknowledgement message follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The following sections describe the overall purpose of each profile.
 
@@ -25,7 +25,32 @@ An Acknowledgment message is required in MedCom FHIR Messaging and follows the r
 
 #### MedComAcknowledgmentOperationOutcome
 
-[MedComAcknowledgmentOperationOutcome](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html) shall be included in the bundle when the MessageHeader.response.code is different from 'ok'. It contains a description of the error and the severity of the error.
+[MedComAcknowledgmentOperationOutcome](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html) shall be included in the bundle when the MessageHeader.response.code is different from 'ok'. Further, an OperationOutcome resource may be included when the MessageHeader.response.code is 'ok', e.g. in cases where the received message is valid, but it is a dublet. OperationOutcome contains a description of the error and the severity of the error.
+
+The ValueSet [MedComAcknowledgementIssueDetailValues](https://build.fhir.org/ig/medcomdk/dk-medcom-terminology//ValueSet-medcom-acknowledgement-issue-details.html) attached to the element OperationOutcome.response.detail.coding is used to describe the issue more detailed. Currently, the ValueSet is fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes.
+
+#### Timestamps 
+
+The Acknowledgement message contains three timestamps:
+
+* Bundle.timestamp
+* Provenance.occuredDateTime[x]
+* Provenance.recorded.
+
+The three timestamps are registered at different time during Acknowledgement message generation and sending. The Acknowledgement message is sent when a system receives a FHIR message e.g. when a municipality receives a HospitalNotification message from the hospital, the it-system will evaluate the message. Based on the result from the evaluation, the system will generate an acknowlegement message that represet the evaluation results. This means that if the HospitalNotification is evaluated positive the acknowlegdement is as well positive. Whereas if the HospitalNotification is evaluated negative then a negative Acknowledgement is generated and send. When the acknowledgement message is generated a Bundle.timestamp is registered. When the acknowledgement message is sent the Provenance.occuredDateTime[x] and Provenance.recorded time stamp is registered. Note that the Provenance.occuredDateTime[x] is a human redable, where Provenance.recorded is a system readable.
+
+#### Simplified examples of the Acknowledgement messages
+
+The simplified examples contain the required content of an Acknowledgement message. The messages illustrate an OK response and a fatal-error response based on a received message. The illustrations shows that two provenance resouces are included when sending an Acknowledgement message, one for the messages the is being acknowledged and one for the Acknowledgement message. 
+
+All profiles shall have a global unique id by using an UUID. [Read more about the use of ids here](https://medcomdk.github.io/MedCom-FHIR-Communication/assets/documents/052.2_MessageHeader_Identifiers_Timestamps.html).
+
+[More examples of a Acknowledgement message can be found here](https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement-examples.html). For examples of a profile, take a look under the tab 'Examples' on the site for the given profile.
+
+> Please notice, that in the following examples is the Provenance resources listed as an array. This is just an example of an order, resources may be listed in any order. 
+
+* [Simplified example of a MedComAcknowledgementMessage responding with OK](./AcknowledgementOK.svg)
+* [Simplified example of a MedComHospitalNotificationMessage responding with fatal-error.](./AcknowledgementError.svg)
 
 
 #### Terminology

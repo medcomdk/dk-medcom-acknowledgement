@@ -18,7 +18,7 @@ Description: "Example of an error operationOutcome. Valid only if used in a Bund
 Usage: #example
 * issue.severity = $ServerityCode#error
 * issue.code =  $CodeCode#structure
-* issue.details.coding = $IssueCodes#testing-error
+* issue.details.coding = $IssueCodes#message-development-error	
 
 Instance: a87bc9d4-f876-4b6f-8585-40b26dc1e369
 InstanceOf: MedComAcknowledgementOperationOutcome
@@ -27,7 +27,7 @@ Description: "Example of an error operationOutcome. Valid only if used in a Bund
 Usage: #example
 * issue.severity = $ServerityCode#information
 * issue.code =  $CodeCode#informational
-* issue.details.coding = $IssueCodes#testing-error
+* issue.details.coding = $IssueCodes#message-development-error
 
 
 Instance: c0055484-2a56-4da2-81b8-a9d5087d865c
@@ -37,6 +37,6 @@ Description: "Example of an error operationOutcome. Valid only if used in a Bund
 Usage: #example
 * issue.severity = $ServerityCode#error
 * issue.code =  $CodeCode#value
-* issue.details.coding = $IssueCodes#testing-error
+* issue.details.coding = $IssueCodes#message-development-error	
 
 

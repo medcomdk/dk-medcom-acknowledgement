@@ -1,10 +1,10 @@
 ### Scope and usage 
 This profile is used as the MessageHeader resource for the MedCom Acknowledgement message. 
-Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComAcknowledgementMessageHeader not allow for a receiver of the type carbon-copy and the profile requires a respons code. This code includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in respons code *ok*.   
+Constraint and rules from MedComMessagingMessageHeader is inherited to this profile. However, does MedComAcknowledgementMessageHeader not allow for a receiver of the type carbon-copy and the profile requires a response code. This code includes information about the delivery of a message e.g., if the message was delivered without error it would resolve in response code 'ok'.   
 
 Below can the structure of a MedCom AcknowledgementMessageHeader be seen.
 
-<img alt="The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./AcknowledgementMessageHeader.png" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
+<img alt="The MedComAcknowledgementMessageHeader includes references to the MedComMessagingOrganization. Additionally, it is possible to include an OperationOutCome profile, referenced from MedComAcknowledgementMessageHeader." src="./AcknowledgementMessageHeader.svg" style="float:none; display:block; margin-left:auto; margin-right:auto;" />
 
 Please refer to the tab "Snapshot Table(Must support)" below for the definition of the required content of a MedComAcknowledgementMessageHeader.
 
