@@ -45,15 +45,15 @@ The use cases for the acknowledgement are part of technical uses casese for MedC
 [English: Use cases](assets/documents/UseCases-ENG.md)  -->
 
 ### 1.2 Technical specification
-The technical specifications for the Acknowledgement standard are composed by profiles from <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>, <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
+The technical specifications for the Acknowledgement standard are composed by profiles from <a href="https://medcomfhir.dk/ig/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>, <a href="https://medcomfhir.dk/ig/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://medcomfhir.dk/ig/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
 The profiles that are part of the technical specification for Acknowledgement FHIR standard are: 
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html"> MedComAcknowledgementOperationOutcome</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a>
+* <a href="https://medcomfhir.dk/ig/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
+* <a href="https://medcomfhir.dk/ig/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
+* <a href="https://medcomfhir.dk/ig/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html"> MedComAcknowledgementOperationOutcome</a>
+* <a href="https://medcomfhir.dk/ig/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  
+* <a href="https://medcomfhir.dk/ig/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a>
 <br>
 <br>
 
