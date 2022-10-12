@@ -16,7 +16,7 @@
 This page presents MedCom's Acknowledgement FHIR&reg;&copy; standard (Danish: Kvittering). An Acknowledgement message corresponds to a receipt of a delivered message. Every time a system receives a MedCom FHIR message, e.g. a HospitalNotification or a CareCommunication, it shall be acknowledged with a MedCom Acknowledgement message, stating if the transfer was successful and the message validated correctly or not. In other words, does a MedCom Acknowledgement message hold information about how delivery of a message went. [MedCom FHIR messaging complies with reliable messaging and associated governance](https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer), which describes the value and needs for acknowledge all messages.
 
 The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
-The standard will in time replace the existing; EDIFACT<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO1-03</a> and
+The standard will in time replace the existing; EDIFACT <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO1-03</a> and
 <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO1-03</a>.
 
 
@@ -37,7 +37,7 @@ Below can the clinical guidelines in Danish and English be found:
 ### 1.1 Use cases
 Use cases describe the different scenarios in which a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Acknowledgement. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions, hospitals and municipalities.
 
-The use cases for the acknowledgement are part of technical uses casese for MedComMessaging. 
+The use cases for the acknowledgement are part of technical uses casese for MedComMessaging.<br> 
 <a href="https://medcomdk.github.io/dk-medcom-messaging/#11-uses-cases" target="_blank">Click here to read use cases for the Acknowledgement.</a>  
 <!-- Below, you can find the use cases both in Danish and English : -->
 
