@@ -22,6 +22,7 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
 .tg .tg-sm6y{background-color:#ffffff;border-color:#000000;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-hrrh{background-color:#ffffff;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
+<div style="overflow-x:auto;">
 <table class="tg" style="undefined;table-layout: fixed; width: 1281px" id="Tab1">
 <caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in the Acknowledgement standard</caption>
 <colgroup>
@@ -78,6 +79,7 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
   </tr>
 </tbody>
 </table>
+</div>
 
 >Note:The Acknowledgement standard is inherited from MedCom Messaging.Therefore a detailed description of the MustSupport elements can be found on the <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">technical content of MedCom Messaging.</a>  
 
