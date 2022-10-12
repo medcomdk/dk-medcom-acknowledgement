@@ -92,7 +92,7 @@ The ValueSet and CodeSystem used for detailed error description, in the element 
 <a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message. The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except  the carbon-copy destination, which is not allowed. 
 
 <figure>
-<img src="../Images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:50%" id="Fig1">
+<img src="../Images/MedComAcknowledgementMessage.png" alt="Show structure of the message." style="width:50%" id="Fig1">
 <figcaption text-align="center"><b>Figure 1: Structure of the Acknowledgement message </b> </figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ The ValueSet and CodeSystem used for detailed error description, in the element 
 
 
 # 3 Example of Acknowledgement message
-The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, respectively transient-error and fatal-error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
+The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, resp ectively transient-error and fatal-error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
 <figure>
 <img src="../Images/AcknowledgementOK.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig2">
 <figcaption text-align="center"><b>Figure 2: Simplified example:OK Acknowledgement message </b> </figcaption>
