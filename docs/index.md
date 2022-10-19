@@ -16,7 +16,7 @@
 This page presents MedCom's Acknowledgement FHIR&reg;&copy; standard (Danish: Kvittering). An Acknowledgement message corresponds to a receipt of a delivered message. Every time a system receives a MedCom FHIR message, e.g. a HospitalNotification or a CareCommunication, it shall be acknowledged with a MedCom Acknowledgement message, stating if the transfer was successful and the message validated correctly or not. In other words, does a MedCom Acknowledgement message hold information about how delivery of a message went. [MedCom FHIR messaging complies with reliable messaging and associated governance](https://medcomdk.github.io/MedCom-FHIR-Communication/#network-layer), which describes the value and needs for acknowledge all messages.
 
 The Acknowledgement is sent as a message and therefore follows the general MedCom FHIR messaging structure, except that the carbon-copy destination is not allowed. The Acknowledge message is released when the receiving system receives the originally sent message from the sending system.
-The standard will in time replace the existing; EDIFACT<a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO1-03</a> and
+The standard will in time replace the existing; EDIFACT <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/EDI/Dokumentation/" target="_blank">CTLO1-03</a> and
 <a href="http://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/" target="_blank">XCTLO1-03</a>.
 
 
@@ -37,7 +37,7 @@ Below can the clinical guidelines in Danish and English be found:
 ### 1.1 Use cases
 Use cases describe the different scenarios in which a standard support. For a certain real-world scenario, it describes the requirements for the content of a message. The purpose of the use cases is to ensure a coherent implementation and use of the Acknowledgement. The descriptions are targeted IT-system vendors and the people responsible for the implementation in regions, hospitals and municipalities.
 
-The use cases for the acknowledgement are part of technical uses casese for MedComMessaging. 
+The use cases for the acknowledgement are part of technical uses casese for MedComMessaging.<br> 
 <a href="https://medcomdk.github.io/dk-medcom-messaging/#11-uses-cases" target="_blank">Click here to read use cases for the Acknowledgement.</a>  
 <!-- Below, you can find the use cases both in Danish and English : -->
 
@@ -45,15 +45,15 @@ The use cases for the acknowledgement are part of technical uses casese for MedC
 [English: Use cases](assets/documents/UseCases-ENG.md)  -->
 
 ### 1.2 Technical specification
-The technical specifications for the Acknowledgement standard are composed by profiles from <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>, <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-terminology/" target="_blank">MedCom Terminology IG</a>
+The technical specifications for the Acknowledgement standard are composed by profiles from <a href="https://medcomfhir.dk/ig/acknowledgement/" target="_blank">MedCom Acknowledgement IG</a>, <a href="https://medcomfhir.dk/ig/messaging/" target="_blank">MedCom Messaging IG</a> and <a href="https://medcomfhir.dk/ig/terminology/" target="_blank">MedCom Terminology IG</a>
 <p>&nbsp;</p>
 
 The profiles that are part of the technical specification for Acknowledgement FHIR standard are: 
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html"> MedComAcknowledgementOperationOutcome</a>
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  
-* <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a>
+* <a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a>
+* <a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>
+* <a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html"> MedComAcknowledgementOperationOutcome</a>
+* <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  
+* <a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a>
 <br>
 <br>
 

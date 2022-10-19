@@ -6,12 +6,13 @@
 * [1 Profiles in the Acknowledgement Standard](#1-profiles-in-the-acknowledgement-standard)
   * [1.1 Codes for detailed error description](#11-codes-for-detailed-error-description)
 * [2 General Acknowledgement Messaging Model](#2-general-acknowledgement-messaging-model)
-* [3 Timestamps for Acknowledgement message](#3-timestamps-for-acknowledgement-message)
+* [3 Example of acknowledgement message](#3-example-of-acknowledgement-message)
+* [4 Timestamps for acknowledgement message](#4-timestamps-for-acknowledgement-message)
 
- > In case of discrepancies between the  <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
+ > In case of discrepancies between the  <a href="https://medcomfhir.dk/ig/acknowledgement/" target="_blank">Acknowledgement Implementation Guide(IG)</a> and this page, it is the IG which should be followed. Please contact <fhir@medcom.dk> if you find discrepancies.
 
 # 1 Profiles in the Acknowledgement Standard
-The Acknowledgement standard is based on  profiles from, respectively <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/" target="_blank">MedCom Acknowledgement IG</a> <a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/" target="_blank">MedCom Messaging IG</a>. A short description of each profile can be seen in the <a href="#Tab1"> Table 1</a>. 
+The Acknowledgement standard is based on  profiles from, respectively <a href="https://medcomfhir.dk/ig/acknowledgement/" target="_blank">MedCom Acknowledgement IG</a> <a href="https://medcomfhir.dk/ig/messaging/" target="_blank">MedCom Messaging IG</a>. A short description of each profile can be seen in the <a href="#Tab1"> Table 1</a>. 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;max-width:70%}
@@ -43,35 +44,35 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
 </thead>
 <tbody>
   <tr>
-    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a></td>
+    <td class="tg-hrrh"><a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html" target="_blank">MedComAcknowledgementMessage</a></td>
     <td class="tg-hrrh">Bundle</td>
     <td class="tg-hrrh">Acts as a container for the content of the message. The type of the Bundle shall always be 'message'.<br><br>This profile inherits from MedComMessagingMessage.</td>
     <td class="tg-hrrh">Id<br>Type<br>Timestamp<br> entry (Reference to all included profiles)</td>
     <td class="tg-hrrh">Acknowledgement</td>
   </tr>
   <tr>
-    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>    </td>
+    <td class="tg-hrrh"><a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html" target="_blank">MedComAcknowledgementMessageHeader</a>    </td>
     <td class="tg-hrrh">MessageHeader</td>
     <td class="tg-hrrh">The header of a message, which shall always be the first referenced profile, when the type of the Bundle is 'message'. This profile holds references to the fundamental information in a message such as sender, receiver, and how the delivery went.<br><br>This profile inherits from MedComMessagingMessageHeader.</td>
     <td class="tg-hrrh">Id<br><br>EventCoding (Type of message)<br> Sender<br>Receiver<br>Response identifier (id)<br>Response code</td>
     <td class="tg-hrrh">Acknowledgement</td>
   </tr>
   <tr>
-    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome .html" target="_blank">MedComAcknowledgementOperationOutcome</a>    </td>
+    <td class="tg-hrrh"><a href="https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html" target="_blank">MedComAcknowledgementOperationOutcome</a>    </td>
     <td class="tg-hrrh">OperationOutcome</td>
     <td class="tg-hrrh">Includes a detailed description of the error and the severity of the error. It shall always be included when an error occurs in the message exchange.</td>
     <td class="tg-hrrh">Id<br>Issue Severity<br>Issue code<br>Details<br></td>
     <td class="tg-hrrh">Acknowledgement</td>
   </tr>
   <tr>
-    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
+    <td class="tg-hrrh"><a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-organization.html" target="_blank">MedComMessagingOrganization</a>  </td>
     <td class="tg-hrrh">Organization</td>
     <td class="tg-hrrh">Inherits from MedComCoreOrganization<br><br>Information useful to identify an organization. In a Acknowledgement message it is used to describe the sender and receiver organizations.<br></td>
     <td class="tg-hrrh">Id<br>Slices for identifier (SOR-id)<br>Slices for identifier (EAN/GLN-id)<br>Name</td>
     <td class="tg-hrrh">Messaging</td>
   </tr>
   <tr>
-    <td class="tg-hrrh"><a href="https://build.fhir.org/ig/medcomdk/dk-medcom-messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a></td>
+    <td class="tg-hrrh"><a href="https://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-provenance.html" target="_blank">MedComMessagingProvenance</a></td>
     <td class="tg-hrrh">Provenance</td>
     <td class="tg-hrrh">Describes the activity and references the message that is acknowledged.</td>
     <td class="tg-hrrh">Id<br>Target<br>OccurredDateTime <br>Timestamps<br>Activity<br>Agent<br>Entity (Reference to the previous message)</td>
@@ -88,26 +89,24 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
 The ValueSet and CodeSystem used for detailed error description, in the element OperationOutCome.issue.details.coding, are currently fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes. Therefore, the ValueSet and CodeSystem has a status as ‘draft’ and vendors should expect the CodeSystem and ValueSet to be extended.
 
 # 2 General Acknowledgement Messaging Model
-<a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message. The Acknowledgement message follows <a href="https://medcomdk.github.io/dk-medcom-messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except  the carbon-copy destination, which is not allowed. 
+<a href="#Fig1"> Figure 1</a> illustrates the structure of the Acknowledgement message. The Acknowledgement message follows <a href="https://medcomdk.github.io/messaging/assets/documents/Intro-Technical-Spec-ENG.html" target="_blank">MedCom's FHIR messaging model</a> except  the carbon-copy destination, which is not allowed. 
 
 <figure>
-<img src="../Images/MedComAcknowledgementMessage.png" alt="Show references between the profiles in an HospitalNotification message." style="width:50%" id="Fig1">
+<img src="../Images/MedComAcknowledgementMessage.png" alt="Show structure of the message." style="width:50%" id="Fig1">
 <figcaption text-align="center"><b>Figure 1: Structure of the Acknowledgement message </b> </figcaption>
 </figure>
-
-
 
 
 # 3 Example of Acknowledgement message
 The Acknowledgement message can have three different outcomes: one positive (Ok), and two negative, respectively transient-error and fatal-error. An example of an Ok Acknowledgement message is shown in <a href="#Fig2"> Figure 2</a>, wherease an example of an erro Acknowledgement message is shown in <a href="#Fig3"> Figure 3</a>.
 <figure>
 <img src="../Images/AcknowledgementOK.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig2">
-<figcaption text-align="center"><b>Figure 2: Example of an OK Acknowledgement message </b> </figcaption>
+<figcaption text-align="center"><b>Figure 2: Simplified example: OK Acknowledgement message </b> </figcaption>
 </figure>
 
 <figure>
 <img src="../Images/AcknowledgementError.svg" alt="Example of an Error Acknowledgement message" style="width:50%" id="Fig3">
-<figcaption text-align="center"><b>Figure 3: Example of an Fatal-Error Acknowledgement message </b> </figcaption>
+<figcaption text-align="center"><b>Figure 3: Simplified example: Fatal-Error Acknowledgement message </b> </figcaption>
 </figure>
 
 
