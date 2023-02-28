@@ -28,7 +28,7 @@ package "Acknowledgement OK message" as ack <<Frame>>{
         destination.receiver.reference = "Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
         sender.reference = "Organization/d7056980-a8b2-42aa-8a0e-c1fc85d1f40d"
         source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
-        response.identifier = "Bundle/42cb9200-f421-4d08-8391-7d51a2503cb4"
+        response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4"
         response.system = "http://hl7.org/fhir/response-code"
         response.code = "ok"
     }
