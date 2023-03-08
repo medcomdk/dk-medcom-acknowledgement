@@ -28,7 +28,7 @@ package "Acknowledgement fatal-error message" as ack <<Frame>>{
         destination.receiver.reference = "Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
         sender.reference = "Organization/d7056980-a8b2-42aa-8a0e-c1fc85d1f40d"
         source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
-        response.identifier = "Bundle/53128d9b-cede-4c7f-8904-809eab322d7d"
+        response.identifier = "53128d9b-cede-4c7f-8904-809eab322d7d"
         response.system = "http://hl7.org/fhir/response-code"
         response.code = "fatal-error"
         response.details.reference = "OperationOutcome/becb2a8e-3a68-4083-910e-811296affd43"
