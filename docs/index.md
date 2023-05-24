@@ -60,14 +60,17 @@ The profiles that are part of the technical specification for Acknowledgement FH
 The link below gives an overview of the included profiles, what their purpose is, and which elements the system should support. Further the structure of the standard is described and supported with examples in different degree of technical skills. <br>
 [Click here to read an introduction to the technical specifications.](assets/documents/IntroToTecSpecENG.md)
 
+### 1.3 Mapping from XCLT01 to MedCom Acknowledgement
+ Mapping from previous OIIOXML standard to the MedCom Acknowledgement standard can be found below. The document is intended to help translate the previous standard to the new FHIR standard. Please notice that not all elements from <a herf ="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/XCTL01.pdf" tagret="_blank">XCT01</a> are transferred to MedCom Acknowledgement as not all elements are represented in the FHIR message. Furthermore, not all elements from the FHIR elements are represented in the document; thus, it cannot stand alone for implementation.
+<br>
+
+[Click here to see mapping from previous OIOXML standard to the MedCom Acknowledgement standard.](/assets/documents/Map_between_OIOXML_and_Ack.md)
 
 
 ## 2 Test and certification
 A certification of a system implies both an approved test protocol and run-trough of TouchStone test scripts. TouchStone describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
 <br>
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> You can find a general description of the MedCom test and certification process here.</a> 
-
-> Note: Testprotocols for Acknowledgement in English, are currently in preparation. As soon as they are ready, they will be published.
 
 **Sending an Acknowledgement**
 * [Test protocol](FHIR-acknowledgement_afsendelse_testprotokol.docx) 
