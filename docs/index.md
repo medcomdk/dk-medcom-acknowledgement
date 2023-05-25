@@ -73,11 +73,11 @@ A certification of a system implies both an approved test protocol and run-troug
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> You can find a general description of the MedCom test and certification process here.</a> 
 
 **Sending an Acknowledgement**
-* [Test protocol](/docs/FHIR-acknowledgement_testprotokol_send.docx) 
+* [Test protocol](/docs/Acknowledgement_Testprotocol_Send.docx) 
 * TouchStone Test scripts - link will be provided soon
 <p>&nbsp;</p>
 
 **Receiving an Acknowledgement**
-* [Test protocol](/docs/FHIR-acknowledgement_testprotokol_receive.docx) 
+* [Test protocol](/docs/Acknowledgement_Testprotocol_Receive.docx) 
 * TouchStone Test scripts - link will be provided soon
 
