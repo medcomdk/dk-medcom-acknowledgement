@@ -74,10 +74,11 @@ A certification of a system implies both an approved test protocol and run-troug
 
 **Sending an Acknowledgement**
 * [Test protocol](/docs/Acknowledgement_Testprotocol_Send.docx) 
-* TouchStone Test scripts - link will be provided soon
-<p>&nbsp;</p>
+* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscripts/">IG including test scripts, test examples and the intendend use of herof.</a>
+* <a href= "https://touchstone.aegis.net/touchstone/testdefinitions?selectedTestGrp=/FHIRSandbox/MedCom/Acknowledgement/v201/Send&activeOnly=false&contentEntry=TEST_SCRIPTS"> Direct link to test scripts in TouchStone</a> 
 
 **Receiving an Acknowledgement**
 * [Test protocol](/docs/Acknowledgement_Testprotocol_Receive.docx) 
-* TouchStone Test scripts - link will be provided soon
+* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscripts/">IG including test scripts, test examples and the intendend use of herof.</a>
+* <a href= "https://touchstone.aegis.net/touchstone/testdefinitions?selectedTestGrp=/FHIRSandbox/MedCom/Acknowledgement/v201/Receive&activeOnly=false&contentEntry=TEST_SCRIPTS"> Direct link to test scripts in TouchStone</a> 
 
