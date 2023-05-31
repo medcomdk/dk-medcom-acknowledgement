@@ -1,7 +1,7 @@
 [Return](../../index.md)
 # Map between OIOXML XCTL01 and MedCom Acknowledgement message
 
-This document describes mapping between the OIOXML XCONTRL (Danish:Kvittering) (<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/XCTL01.pdf" target="_blank">XCT01</a>) and the MedCom Acknowledgement message. Not all elements from OIOXML XCONTROL are relevant in MedCom Acknowledgement messagemessage, which is marked with a ‘NA’. The purpose of this document is to help implementers of MedCom Acknowledgement message. The actual implementation guide which includes all requirements for the MedCom Acknowledgement can be found <a href="https://medcomfhir.dk/ig/acknowledgement/" target="_blank">here</a> 
+This document describes mapping between the OIOXML XCTRL01 (Danish: Kvittering) (<a href="https://svn.medcom.dk/svn/releases/Standarder/Den%20gode%20CONTRL/XML/Dokumentation/XCTL01.pdf" target="_blank">XCT01</a>) and the MedCom Acknowledgement message. Not all elements from OIOXML XCTRL01 are relevant in MedCom Acknowledgement message, which is marked with a ‘NA’. The purpose of this document is to help implementers of MedCom Acknowledgement message. The actual implementation guide which includes all requirements for the MedCom Acknowledgement can be found <a href="https://medcomfhir.dk/ig/acknowledgement/" target="_blank">here</a> 
 
 > Please notice, that the expressions in ‘Actual FHIR path’ are made using the windows app called FHIRPath tester. In other applications, are the apostrophe ( ‘…’ ) might not used.
 
