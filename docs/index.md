@@ -73,12 +73,10 @@ A certification of a system implies both an approved test protocol and run-troug
 <a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> You can find a general description of the MedCom test and certification process here.</a> 
 
 **Sending an Acknowledgement**
-* [Test protocol](/docs/Acknowledgement_Testprotocol_Send.docx) 
+* [Test protocol](Acknowledgement_Testprotocol_Send.docx) 
 * <a href ="https://medcomfhir.dk/ig/acknowledgementtestscripts/">IG including test scripts, test examples and the intendend use of hereof.</a>
-* <a href= "https://touchstone.aegis.net/touchstone/testdefinitions?selectedTestGrp=/FHIRSandbox/MedCom/Acknowledgement/v201/Send&activeOnly=false&contentEntry=TEST_SCRIPTS"> Direct link to test scripts in TouchStone</a> 
 
 **Receiving an Acknowledgement**
-* [Test protocol](/docs/Acknowledgement_Testprotocol_Receive.docx) 
+* [Test protocol](Acknowledgement_Testprotocol_Receive.docx) 
 * <a href ="https://medcomfhir.dk/ig/acknowledgementtestscripts/">IG including test scripts, test examples and the intendend use of hereof.</a>
-* <a href= "https://touchstone.aegis.net/touchstone/testdefinitions?selectedTestGrp=/FHIRSandbox/MedCom/Acknowledgement/v201/Receive&activeOnly=false&contentEntry=TEST_SCRIPTS"> Direct link to test scripts in TouchStone</a> 
 
