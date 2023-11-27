@@ -1,11 +1,11 @@
-title: "MedCom STANDARDNAME in FHIR"
-description: "This page includes content about STANDARDNAME (DA: STANDARDNAVN)"
+title: "MedCom Acknowledgement Standard in FHIR"
+description: "This page includes content about MedCom Acknowledgement (DA: Kvittering)"
 logo: /assets/Images/MedCom+HL7 FHIR_4.png
 description: "MedCom standard based on HL7 FHIR"
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
-version: "Version 2.0.5"
+version: "Version 2.0.6"
 fhir_version: "FHIR®© R4"
 releasenote: https://github.com/medcomdk/dk-medcom-acknowledgement/releases
 thisurl: https://medcomdk.github.io/dk-medcom-acknowledgement/
