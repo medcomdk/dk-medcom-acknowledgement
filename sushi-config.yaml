@@ -4,7 +4,7 @@ name: MedComAcknowledgement
 title: "DK MedCom acknowledgement"
 description: The DK MedCom acknowledgement IG
 status: active
-version: "2.0.1"
+version: "2.0.2"
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: Release
@@ -14,8 +14,10 @@ publisher:
 jurisdiction: urn:iso:std:iso:3166#DK "Denmark"
 dependencies:
   hl7.fhir.dk.core: 2.0.0
-  medcom.fhir.dk.core: dev
-  medcom.fhir.dk.messaging: dev
+  medcom.fhir.dk.core: 2.0.0
+  medcom.fhir.dk.messaging: 2.0.0
+  medcom.fhir.dk.terminology: 1.5.0
+
 
 
 menu:
@@ -28,5 +30,5 @@ menu:
 
 parameters:
   apply-contact: true
-  apply-juristiction: true
+  apply-jurisdiction: true
   apply-publisher: true
