@@ -1,1 +1,1 @@
-Updated description of MessageHeader.source and modified examples
+* Updated reference to medcom.fhir.dk.terminology

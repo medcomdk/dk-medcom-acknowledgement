@@ -9,7 +9,7 @@ Description: "A resource that describes a reponse to a message that is exchanged
 * response.details MS
 * response.details ^definition = "Shall contain identified hints/warnings/error in case the code is transient-error or fatal-error"
 * response.details only Reference(MedComAcknowledgementOperationOutcome)
-* source  ^short = "Contains information about the sender of the Acknowledgement message "
+* source ^short = "Contains information about the sender of the Acknowledgement message"
 
 Instance: ff9055ec-b1f1-48b6-933a-063dff0a6faf
 InstanceOf: MedComAcknowledgementMessageHeader
