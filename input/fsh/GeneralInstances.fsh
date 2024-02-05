@@ -15,13 +15,13 @@ InstanceOf: MedComMessagingMessage
 Description: "Example of an emty message."
 * type = $BundleType#message
 * timestamp = 2020-09-28T12:34:56Z
-* entry[+].fullUrl = "MessageHeader/3881874e-2042-4a00-aee8-23512799f512"
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/3881874e-2042-4a00-aee8-23512799f512"
 * entry[=].resource = 3881874e-2042-4a00-aee8-23512799f512
-* entry[+].fullUrl = "Organization/d7056980-a8b2-42aa-8a0e-c1fc85d1f40d"
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/d7056980-a8b2-42aa-8a0e-c1fc85d1f40d"
 * entry[=].resource = d7056980-a8b2-42aa-8a0e-c1fc85d1f40d
-* entry[+].fullUrl = "Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
 * entry[=].resource = 74cdf292-abf3-4f5f-80ea-60a48013ff6d
-* entry[+].fullUrl = "Provenance/4c284936-5454-4116-95fc-3c8eeeed2400"
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Provenance/4c284936-5454-4116-95fc-3c8eeeed2400"
 * entry[=].resource = 4c284936-5454-4116-95fc-3c8eeeed2400
 
 // MedComMessagingMessageHeader og MedComMessagingdestinationUseExtension instance
