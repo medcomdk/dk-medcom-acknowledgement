@@ -10,6 +10,8 @@ Description: "A resource that describes a reponse to a message that is exchanged
 * response.details ^definition = "Shall contain identified hints/warnings/error in case the code is transient-error or fatal-error"
 * response.details only Reference(MedComAcknowledgementOperationOutcome)
 * source ^short = "Contains information about the sender of the Acknowledgement message"
+* definition 1..1 MS
+* definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
 Instance: ff9055ec-b1f1-48b6-933a-063dff0a6faf
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -24,6 +26,7 @@ Usage: #inline
 * source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
 * response.identifier = "eb26be85-fdb7-454d-a980-95cba6d1745b"
 * response.code = $AcknowledgementCode#fatal-error
+* definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
 Instance: b879c81e-0607-4ccb-b358-24a72208e30d
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -39,6 +42,7 @@ Usage: #example
 * response.identifier = "53128d9b-cede-4c7f-8904-809eab322d7d"
 * response.code = $AcknowledgementCode#fatal-error
 * response.details = Reference(becb2a8e-3a68-4083-910e-811296affd43)
+* definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
 Instance: aba2d9bf-2c6c-47e8-bce4-7928bcd51019
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -53,6 +57,7 @@ Usage: #example
 * source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
 * response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4"
 * response.code = $AcknowledgementCode#ok
+* definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
 Instance: c9a0b728-0807-11ed-861d-0242ac120002
 InstanceOf: MedComAcknowledgementMessageHeader
@@ -68,3 +73,4 @@ Usage: #example
 * response.identifier = "53128d9b-cede-4c7f-8904-809eab322d7d"
 * response.code = $AcknowledgementCode#transient-error
 * response.details = Reference(c0055484-2a56-4da2-81b8-a9d5087d865c)
+* definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
