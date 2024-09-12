@@ -4,13 +4,13 @@ Id: medcom-acknowledgement-message-definition
 Description: "The MessageDefinition for a MedCom Acknowledgement message"
 * id = "MedComAcknowledgementMessageDefinition"
 * url = "urn:dk:healthcare:medcom:messaging:fhir:structuredefinition:acknowledgement:2.0"
-* identifier.period.start = "2024-06-18" //RCH: Dato for hvornår denne messagedefinition er gældende
+* identifier.period.start = "2024-06-18"
 * identifier.use = #official 
 * identifier.value = "Acknowledgement"
 * version = "2.0"
 * title = "Acknoledgement 2.0"
 * status = #release
-* date = "2024-09-04" //RCH: Dato for hvornår oplysningerne i denne messagedefinition er blevet ændret, fx. at kontaktoplysningerne er ændrede.
+* date = "2024-09-04"
 * copyright = "Copyright © 2024 MedCom"
 //* publisher = "MedCom"
 //InteroperabilityConsultant
