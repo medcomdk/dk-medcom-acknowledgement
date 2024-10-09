@@ -20,12 +20,12 @@ The Acknowledgement standard is based on  profiles from, respectively <a href="h
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-sm6y{background-color:#ffffff;border-color:#000000;color:#2c415c;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-sm6y{background-color:#ffffff;border-color:#000000;color:#002134;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-hrrh{background-color:#ffffff;border-color:#000000;color:#333333;text-align:left;vertical-align:top}
 </style>
 <div style="overflow-x:auto;">
 <table class="tg" style="undefined;table-layout: fixed; width: 1281px" id="Tab1">
-<caption style="color:#2c415c; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in the Acknowledgement standard</caption>
+<caption style="color:#002134; font-weight:bold; text-align:center"> Table 1: Overview of the profiles in the Acknowledgement standard</caption>
 <colgroup>
 <col style="width: 291px">
 <col style="width: 115px">
