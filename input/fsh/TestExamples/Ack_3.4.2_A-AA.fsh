@@ -1,7 +1,7 @@
 Instance: 47a4b02a-18a0-4dac-993b-7f07a8b16466
 InstanceOf: MedComAcknowledgementMessage
-Title: "Ack_3.4.1_A-ok - Example Acknowledgement message - Ok"
-Description: "Ack_3.4.1_A-ok - Example Acknowledgement message - Ok"
+Title: "Ack_3.4.2_A-ok - Example Acknowledgement message - Ok"
+Description: "Ack_3.4.2_A-ok - Example Acknowledgement message - Ok"
 * type = $BundleType#message
 * timestamp = 2024-12-05T10:15:00Z
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/e290dc0c-235b-4b95-900d-fc897f7e8833"
@@ -18,8 +18,8 @@ Description: "Ack_3.4.1_A-ok - Example Acknowledgement message - Ok"
 
 Instance: e290dc0c-235b-4b95-900d-fc897f7e8833
 InstanceOf: MedComAcknowledgementMessageHeader
-Title: "Ack_3.4.1_A-ok - Example MessageHeader -  ok message"
-Description: "Ack_3.4.1_A-ok - Example MessageHeader - ok message. Valid only if used in a Bundle (message)."
+Title: "Ack_3.4.2_A-ok - Example MessageHeader -  ok message"
+Description: "Ack_3.4.2_A-ok - Example MessageHeader - ok message. Valid only if used in a Bundle (message)."
 Usage: #example
 * destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
 * eventCoding = $MessageEvents#acknowledgement-message
@@ -33,8 +33,8 @@ Usage: #example
 
 Instance: c9b81253-d61f-4cca-8230-50f78baa432f
 InstanceOf: MedComMessagingProvenance
-Title: "Ack_3.4.1_A-ok - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
-Description: "Ack_3.4.1_A-ok - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
+Title: "Ack_3.4.2_A-ok - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
+Description: "Ack_3.4.2_A-ok - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
 * target = Reference(42cb9200-f421-4d08-8391-7d51a2503cb4)
 * occurredDateTime = 2024-12-05T10:15:00+02:00
 * recorded = 2024-12-05T10:15:00+02:00
@@ -43,8 +43,8 @@ Description: "Ack_3.4.1_A-ok - CareCommunication example. The Provenance instanc
 
 Instance: 0591e40a-8990-41f6-8232-352dddd79c29
 InstanceOf: MedComMessagingProvenance
-Title: "Ack_3.4.1_A-ok - Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
-Description: "Ack_3.4.1_A-ok - Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
+Title: "Ack_3.4.2_A-ok - Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
+Description: "Ack_3.4.2_A-ok - Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
 * target = Reference(e290dc0c-235b-4b95-900d-fc897f7e8833)
 * occurredDateTime = 2024-12-05T10:15:20+01:00
 * recorded = 2024-12-05T10:15:20Z
@@ -56,8 +56,8 @@ Description: "Ack_3.4.1_A-ok - Provenance information for an Acknowledgementmess
 // Reciever instance
 Instance: df472f2c-578e-472a-80af-ce3d6375a57a
 InstanceOf: MedComMessagingOrganization
-Title: "Ack_3.4.1_A-ok - Example of a reciever organization with a SOR and an EAN identifier."
-Description: "Ack_3.4.1_A-ok - Example of an organization with a SOR and an EAN identifier."
+Title: "Ack_3.4.2_A-ok - Example of a reciever organization with a SOR and an EAN identifier."
+Description: "Ack_3.4.2_A-ok - Example of an organization with a SOR and an EAN identifier."
 * identifier[SOR-ID].value = "265161000016000" 
 * identifier[EAN-ID].value = "5790000209354" 
 * name = "Receiver Organization"
@@ -65,8 +65,8 @@ Description: "Ack_3.4.1_A-ok - Example of an organization with a SOR and an EAN 
 // Sender instance
 Instance: 5759f328-0999-4a0c-8d0f-c693f025f02d
 InstanceOf: MedComMessagingOrganization
-Title: "Ack_3.4.1_A-ok - Example of a sender organization with a SOR and an EAN identifier."
-Description: "Ack_3.4.1_A-ok - Example of an organization with a SOR and an EAN identifier."
+Title: "Ack_3.4.2_A-ok - Example of a sender organization with a SOR and an EAN identifier."
+Description: "Ack_3.4.2_A-ok - Example of an organization with a SOR and an EAN identifier."
 * identifier[SOR-ID].value = "953741000016009"
 * identifier[EAN-ID].value = "5790001348120"
 * name = "Sender Organization"

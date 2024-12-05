@@ -1,8 +1,8 @@
 
 Instance: 4db08f7f-b2b4-45f4-b5af-317e31c5ea3d
 InstanceOf: MedComAcknowledgementMessage
-Title: "Ack_3.3.3.3 - Example Acknowledgement message - Transient error"
-Description: "Ack_3.3.3.3 - Example Acknowledgement message - Transient error"
+Title: "Ack_3.3.3.1 - Example Acknowledgement message - Transient error"
+Description: "Ack_3.3.3.1 - Example Acknowledgement message - Transient error"
 * type = $BundleType#message
 * timestamp = 2024-12-05T11:15:00Z
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/55ab759a-de78-4fe4-a601-e2ebfaa0485f"
