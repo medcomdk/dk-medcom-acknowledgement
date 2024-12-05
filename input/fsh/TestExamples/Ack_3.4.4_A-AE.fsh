@@ -1,7 +1,7 @@
 Instance: afbdcb9c-ab3b-4391-9f5f-98fac2cd89c4
 InstanceOf: MedComAcknowledgementMessage
-Title: "Ack_3.3.3.6 - Example Acknowledgement message - Fatal error"
-Description: "Ack_3.3.3.6 - Example Acknowledgement message - Fatal error"
+Title: "Ack_3.4.4 - Example Acknowledgement message - Fatal error"
+Description: "Ack_3.4.4 - Example Acknowledgement message - Fatal error"
 * type = $BundleType#message
 * timestamp = 2024-12-05T11:09:00Z
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/b033429c-3d01-4ea1-8d8b-9f45515d952c"
@@ -19,7 +19,7 @@ Description: "Ack_3.3.3.6 - Example Acknowledgement message - Fatal error"
 
 Instance: b033429c-3d01-4ea1-8d8b-9f45515d952c
 InstanceOf: MedComAcknowledgementMessageHeader
-Title: "Ack_3.3.3.6 - Acknowledgement MessageHeader - fatal-error message"
+Title: "Ack_3.4.4 - Acknowledgement MessageHeader - fatal-error message"
 Description: "Acknowledgement MessageHeader - fatal-error message. Valid only if used in a Bundle (message)."
 Usage: #example
 * destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
@@ -37,7 +37,7 @@ Usage: #example
 // provernance
 Instance: f049974e-bebf-4f89-ac8c-938ecf51a7dc
 InstanceOf: MedComMessagingProvenance
-Title: "Ack_3.3.3.6 - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
+Title: "Ack_3.4.4 - CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
 Description: "CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
 * target = Reference(42cb9200-f421-4d08-8391-7d51a2503cb4)
 * occurredDateTime = 2024-12-05T11:09:20+01:00
@@ -47,7 +47,7 @@ Description: "CareCommunication example. The Provenance instance is only valid i
 
 Instance: 4fce9a56-c149-40ce-b29c-1207a52bc2bc
 InstanceOf: MedComMessagingProvenance
-Title: "Ack_3.3.3.6 - Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
+Title: "Ack_3.4.4 - Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
 Description: "Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
 * target = Reference(b033429c-3d01-4ea1-8d8b-9f45515d952c)
 * occurredDateTime = 2024-12-05T11:09:20+01:00
@@ -61,7 +61,7 @@ Description: "Provenance information for an Acknowledgementmessage - CareCommuni
 // Reciever instance
 Instance: f1774667-ced4-4a66-9017-b65f44741883
 InstanceOf: MedComMessagingOrganization
-Title: "Ack_3.3.3.6 - Example of a reciever organization with a SOR and an EAN identifier."
+Title: "Ack_3.4.4 - Example of a reciever organization with a SOR and an EAN identifier."
 Description: "Example of an organization with a SOR and an EAN identifier."
 * identifier[SOR-ID].value = "265161000016000" 
 * identifier[EAN-ID].value = "5790000209354" 
@@ -70,7 +70,7 @@ Description: "Example of an organization with a SOR and an EAN identifier."
 // Sender instance
 Instance: f915a013-c25a-4353-8bf1-bd5eb5beeb2e
 InstanceOf: MedComMessagingOrganization
-Title: "Ack_3.3.3.6 - Example of a sender organization with a SOR and an EAN identifier."
+Title: "Ack_3.4.4 - Example of a sender organization with a SOR and an EAN identifier."
 Description: "Example of an organization with a SOR and an EAN identifier."
 * identifier[SOR-ID].value = "953741000016009"
 * identifier[EAN-ID].value = "5790001348120"
@@ -78,7 +78,7 @@ Description: "Example of an organization with a SOR and an EAN identifier."
 
 Instance: 649a459b-88fc-4ef0-8a99-9c85a7617edc
 InstanceOf: MedComAcknowledgementOperationOutcome
-Title: "Ack_3.3.3.6 - MedComAcknowledgementOperationOutcome - Severity is 'error'"
+Title: "Ack_3.4.4 - MedComAcknowledgementOperationOutcome - Severity is 'error'"
 Description: "Example of an error operationOutcome. Valid only if used in a Bundle (message)."
 Usage: #example
 * issue.severity = $ServerityCode#error
