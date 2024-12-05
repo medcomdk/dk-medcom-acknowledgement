@@ -15,6 +15,7 @@ Description: "Ack_3.3.1.1_A-ok - Example Acknowledgement message - Ok"
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/87f589d3-d31d-4d7e-980e-323369ecd969"
 * entry[=].resource = 87f589d3-d31d-4d7e-980e-323369ecd969
 
+
 Instance: 0746dd4e-faec-4525-b968-1aeab18d4465
 InstanceOf: MedComAcknowledgementMessageHeader
 Title: "Ack_3.3.1.1_A-ok - Example MessageHeader -  ok message"
