@@ -16,7 +16,6 @@ Description: "The message header shall conform to medcom-messaging-acknowledgeme
 Severity: #error
 Expression: "entry.resource.ofType(MessageHeader).conformsTo('http://medcomfhir.dk/ig/acknowledgement/StructureDefinition/medcom-messaging-acknowledgementHeader')"
 
-/*
 Instance: a8c041b8-c65a-4fde-a90f-962076918834
 InstanceOf: MedComAcknowledgementMessage
 Title: "Example Acknowledgement message - Ok"
@@ -72,5 +71,3 @@ Description: "Example Acknowledgement message - Transient error"
 * entry[=].resource = 74cdf292-abf3-4f5f-80ea-60a48013ff6d
 * entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/OperationOutcome/c0055484-2a56-4da2-81b8-a9d5087d865c"
 * entry[=].resource = c0055484-2a56-4da2-81b8-a9d5087d865c
-
-*/
