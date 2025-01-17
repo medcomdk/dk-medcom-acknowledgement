@@ -23,11 +23,11 @@ Description: "Ack_3.3.1.1_A-ok - Example MessageHeader - ok message. Valid only 
 Usage: #example
 * destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
 * eventCoding = $MessageEvents#acknowledgement-message
-* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
+* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=325251000016005"
 * destination[primary].receiver = Reference(87f589d3-d31d-4d7e-980e-323369ecd969)
-* sender = Reference(06ba9393-9256-4d67-aed8-52985091ab7b)
-* source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
-* response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4"
+* sender = Reference(06ba9393-9256-4d67-aed8-52985091ab7b) 
+* source.endpoint = "https://sor2.sum.dsdn.dk/#id=325371000016006"
+* response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4" // RET?
 * response.code = $AcknowledgementCode#ok
 * definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
@@ -58,15 +58,15 @@ Instance: 87f589d3-d31d-4d7e-980e-323369ecd969
 InstanceOf: MedComMessagingOrganization
 Title: "Ack_3.3.1.1_A-ok - Example of a reciever organization with a SOR and an EAN identifier."
 Description: "Ack_3.3.1.1_A-ok - Example of an organization with a SOR and an EAN identifier."
-* identifier[SOR-ID].value = "265161000016000" 
-* identifier[EAN-ID].value = "5790000209354" 
-* name = "Receiver Organization"
+* identifier[SOR-ID].value = "325251000016005"
+* identifier[EAN-ID].value = "5790000121526"
+* name = "Receiver Organization (Sender of original message)"
 
 // Sender instance
 Instance: 06ba9393-9256-4d67-aed8-52985091ab7b
 InstanceOf: MedComMessagingOrganization
 Title: "Ack_3.3.1.1_A-ok - Example of a sender organization with a SOR and an EAN identifier."
 Description: "Ack_3.3.1.1_A-ok - Example of an organization with a SOR and an EAN identifier."
-* identifier[SOR-ID].value = "953741000016009"
-* identifier[EAN-ID].value = "5790001348120"
-* name = "Sender Organization"
+* identifier[SOR-ID].value = "325371000016006"
+* identifier[EAN-ID].value = "5790000120314"
+* name = "Sender Organization (Receiver of original message)"
