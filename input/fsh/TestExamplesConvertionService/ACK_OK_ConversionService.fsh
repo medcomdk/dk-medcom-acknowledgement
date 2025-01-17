@@ -1,36 +1,36 @@
-Instance: a8c041b8-c65a-4fde-a90f-962076918834
+Instance: c5542928-8128-40c2-854b-279a8e3c7887
 InstanceOf: MedComAcknowledgementMessage
-Title: "Example Acknowledgement message - Ok"
+Title: "ACK_OK_ConvertionService - Example Acknowledgement message - Ok"
 Description: "Example Acknowledgement message - Ok"
 * type = $BundleType#message
-* timestamp = 2022-09-01T12:01:00Z
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/aba2d9bf-2c6c-47e8-bce4-7928bcd51019"
-* entry[=].resource = aba2d9bf-2c6c-47e8-bce4-7928bcd51019
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Provenance/4c284936-5454-4116-95fc-3c8eeeed2400"
-* entry[=].resource = 4c284936-5454-4116-95fc-3c8eeeed2400
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Provenance/69dab277-dd4b-4055-9fda-a10a65cb4412"
-* entry[=].resource = 69dab277-dd4b-4055-9fda-a10a65cb4412
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/d7056980-a8b2-42aa-8a0e-c1fc85d1f40d"
-* entry[=].resource = d7056980-a8b2-42aa-8a0e-c1fc85d1f40d
-* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/74cdf292-abf3-4f5f-80ea-60a48013ff6d"
-* entry[=].resource = 74cdf292-abf3-4f5f-80ea-60a48013ff6d
+* timestamp = 2025-17-01T12:01:00Z
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/MessageHeader/5d30e750-68cc-434f-a3b9-c5c9e6588b47"
+* entry[=].resource = 5d30e750-68cc-434f-a3b9-c5c9e6588b47
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Provenance/ae21f704-e904-4691-86d4-759151ecde96"
+* entry[=].resource = ae21f704-e904-4691-86d4-759151ecde96
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Provenance/43bdaccb-faef-4cbc-9caa-84b0397be005"
+* entry[=].resource = 43bdaccb-faef-4cbc-9caa-84b0397be005
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/b98a524c-4e0e-4d35-9f77-54bb722b839b"
+* entry[=].resource = b98a524c-4e0e-4d35-9f77-54bb722b839b
+* entry[+].fullUrl = "https://medcomfhir.dk/ig/acknowledgement/Organization/3202024e-80b9-42ff-9b64-75347f503748"
+* entry[=].resource = 3202024e-80b9-42ff-9b64-75347f503748
 
-Instance: aba2d9bf-2c6c-47e8-bce4-7928bcd51019
+Instance: 5d30e750-68cc-434f-a3b9-c5c9e6588b47
 InstanceOf: MedComAcknowledgementMessageHeader
 Title: "Acknowledgement MessageHeader -  ok message"
 Description: "Acknowledgement MessageHeader - ok message. Valid only if used in a Bundle (message)."
 Usage: #example
 * destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
 * eventCoding = $MessageEvents#acknowledgement-message
-* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
-* destination[primary].receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
-* sender = Reference(d7056980-a8b2-42aa-8a0e-c1fc85d1f40d)
-* source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
-* response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4"
+* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=325251000016005"
+* destination[primary].receiver = Reference(3202024e-80b9-42ff-9b64-75347f503748)
+* sender = Reference(b98a524c-4e0e-4d35-9f77-54bb722b839b)
+* source.endpoint = "https://sor2.sum.dsdn.dk/#id=325371000016006"
+* response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4" // Reference to the original message that must be changed
 * response.code = $AcknowledgementCode#ok
 * definition = "http://medcomfhir.dk/ig/acknowledgement/medcom-acknowledgement-message-definition|2.0.0"
 
-Instance: 4c284936-5454-4116-95fc-3c8eeeed2400
+Instance: ae21f704-e904-4691-86d4-759151ecde96
 InstanceOf: MedComMessagingProvenance
 Title: "CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
 Description: "CareCommunication example. The Provenance instance is only valid if used in a bundle (message) - new message"
@@ -38,34 +38,34 @@ Description: "CareCommunication example. The Provenance instance is only valid i
 * occurredDateTime = 2022-09-01T12:01:20+02:00
 * recorded = 2022-09-01T12:01:20Z
 * activity.coding = $ActivityCode#new-message
-* agent.who = Reference(d7056980-a8b2-42aa-8a0e-c1fc85d1f40d)
+* agent.who = Reference(b98a524c-4e0e-4d35-9f77-54bb722b839b)
 
-Instance: 69dab277-dd4b-4055-9fda-a10a65cb4412
+Instance: 43bdaccb-faef-4cbc-9caa-84b0397be005
 InstanceOf: MedComMessagingProvenance
 Title: "Provenance information for an Acknowledgement message - CareCommunication. Valid only if used in a bundle (message)"
 Description: "Provenance information for an Acknowledgementmessage - CareCommunication. Valid only if used in a bundle (message)."
-* target = Reference(aba2d9bf-2c6c-47e8-bce4-7928bcd51019)
+* target = Reference(5d30e750-68cc-434f-a3b9-c5c9e6588b47)
 * occurredDateTime = 2022-09-01T12:01:20+02:00
 * recorded = 2022-09-01T12:01:20Z
 * activity.coding = $ActivityCode#acknowledgement
-* agent.who = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
+* agent.who = Reference(3202024e-80b9-42ff-9b64-75347f503748)
 * entity.role = #revision
 * entity.what = Reference(42cb9200-f421-4d08-8391-7d51a2503cb4)
 
 // Sender instance
-Instance: d7056980-a8b2-42aa-8a0e-c1fc85d1f40d
+Instance: b98a524c-4e0e-4d35-9f77-54bb722b839b
 InstanceOf: MedComMessagingOrganization
-Title: "Example of a sender organization with a SOR and an EAN identifier."
-Description: "Example of an organization with a SOR and an EAN identifier."
-* identifier[SOR-ID].value = "953741000016009"
-* identifier[EAN-ID].value = "5790001348120"
-* name = "Sender Organization"
+Title: "Ack_3.3.1.1_A-ok - Example of a sender organization with a SOR and an EAN identifier."
+Description: "Ack_3.3.1.1_A-ok - Example of an organization with a SOR and an EAN identifier."
+* identifier[SOR-ID].value = "325371000016006"
+* identifier[EAN-ID].value = "5790000120314"
+* name = "Sender Organization (Receiver of original message)"
 
 // Reciever instance
-Instance: 74cdf292-abf3-4f5f-80ea-60a48013ff6d
+Instance: 3202024e-80b9-42ff-9b64-75347f503748
 InstanceOf: MedComMessagingOrganization
-Title: "Example of a reciever organization with a SOR and an EAN identifier."
-Description: "Example of an organization with a SOR and an EAN identifier."
-* identifier[SOR-ID].value = "265161000016000" 
-* identifier[EAN-ID].value = "5790000209354" 
-* name = "Receiver Organization"
+Title: "Ack_3.3.1.1_A-ok - Example of a reciever organization with a SOR and an EAN identifier."
+Description: "Ack_3.3.1.1_A-ok - Example of an organization with a SOR and an EAN identifier."
+* identifier[SOR-ID].value = "325251000016005"
+* identifier[EAN-ID].value = "5790000121526"
+* name = "Receiver Organization (Sender of original message)"
