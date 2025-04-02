@@ -74,9 +74,10 @@ A certification of a system implies both an approved test protocol and run-troug
 
 **Sending an Acknowledgement**
 * [Test protocol](Acknowledgement_Testprotocol_Send.docx) 
-* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscript/">IG including test scripts, test examples and the intendend use of hereof.</a>
+* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscript/">IG including test scripts and the intendend use hereof.</a>
 
 **Receiving an Acknowledgement**
-* [Test protocol](Acknowledgement_Testprotocol_Receive.docx) 
-* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscript/">IG including test scripts, test examples and the intendend use of hereof.</a>
+* [Test protocol](Acknowledgement_Testprotocol_Receive.docx)
+* [Test examples for receiving an Acknowledgement](Acknowledgement_testexamples_receive.zip).
+* <a href ="https://medcomfhir.dk/ig/acknowledgementtestscript/">IG including test scripts and the intendend use hereof.</a>
 
