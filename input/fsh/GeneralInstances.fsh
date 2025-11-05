@@ -28,17 +28,18 @@ Description: "Example of an emty message."
 
 Instance: b4e7e16b-9658-4172-acd7-5e7193f2cc5f
 InstanceOf: MedComMessagingDestinationUseExtension
-Usage: #inline
+Usage: #example
 * valueCoding = $Use#primary
 
 Instance: 3881874e-2042-4a00-aee8-23512799f512
 InstanceOf: MedComMessagingMessageHeader
 Title: "Message Header for an empty message. Valid only if used in a bundle (message)"
 Description: "Message Header for an empty message. Valid only if used in a bundle (message)."
-* destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
+* destination.extension.url = "http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-destinationUseExtension"
+* destination.extension.valueCoding = $Use#primary
 * eventCoding = $MessageEvents#empty-message
-* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
-* destination[primary].receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
+* destination.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
+* destination.receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
 * sender = Reference(d7056980-a8b2-42aa-8a0e-c1fc85d1f40d)
 * source.endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
 
@@ -47,10 +48,11 @@ Instance: 42cb9200-f421-4d08-8391-7d51a2503cb4
 InstanceOf: MedComMessagingMessageHeader
 Title: "Message header for care communication message. Valid only if used in a bundle (message)."
 Description: "Message header for care communication message. Valid only if used in a bundle (message)."
-* destination[primary].extension[use] = b4e7e16b-9658-4172-acd7-5e7193f2cc5f
+* destination.extension.url = "http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-destinationUseExtension"
+* destination.extension.valueCoding = $Use#primary
 * eventCoding = $MessageEvents#care-communication-message
-* destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
-* destination[primary].receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
+* destination.endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
+* destination.receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
 * sender = Reference(d7056980-a8b2-42aa-8a0e-c1fc85d1f40d)
 * source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
 
