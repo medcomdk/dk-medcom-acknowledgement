@@ -26,11 +26,6 @@ Description: "Example of an emty message."
 
 // MedComMessagingMessageHeader og MedComMessagingdestinationUseExtension instance
 
-Instance: b4e7e16b-9658-4172-acd7-5e7193f2cc5f
-InstanceOf: MedComMessagingDestinationUseExtension
-Usage: #example
-* valueCoding = $Use#primary
-
 Instance: 3881874e-2042-4a00-aee8-23512799f512
 InstanceOf: MedComMessagingMessageHeader
 Title: "Message Header for an empty message. Valid only if used in a bundle (message)"
