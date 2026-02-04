@@ -1,3 +1,1 @@
-* Updated reference to medcom.fhir.dk.terminology
-* Updated instances due to the change in terminology reference
-* Technical modification of the invariant medcom-acknowledgement-2, no requirements has changed
+* Technical correction of dependendy to DkCoreMessaging from 2.0.0 og 2.1.0. This is done to handle validation-errors in MedComAcknowledgementMessageHeader, no new requirements are added. 

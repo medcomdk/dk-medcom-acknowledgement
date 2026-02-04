@@ -47,8 +47,8 @@ InstanceOf: MedComAcknowledgementMessageHeader
 Title: "Acknowledgement MessageHeader -  ok message"
 Description: "Acknowledgement MessageHeader - ok message. Valid only if used in a Bundle (message)."
 Usage: #example
-* destination.extension.url = "http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-destinationUseExtension"
-* destination.extension.valueCoding = $Use#primary
+* destination[primary].extension.url = "http://medcomfhir.dk/ig/messaging/StructureDefinition/medcom-messaging-destinationUseExtension"
+* destination[primary].extension.valueCoding = $Use#primary
 * eventCoding = $MessageEvents#acknowledgement-message
 * destination[primary].endpoint = "https://sor2.sum.dsdn.dk/#id=265161000016000"
 * destination[primary].receiver = Reference(74cdf292-abf3-4f5f-80ea-60a48013ff6d)
@@ -56,6 +56,12 @@ Usage: #example
 * source.endpoint = "https://sor2.sum.dsdn.dk/#id=953741000016009"
 * response.identifier = "42cb9200-f421-4d08-8391-7d51a2503cb4"
 * response.code = $AcknowledgementCode#ok
+
+/*Instance: b4e7e16b-9658-4172-acd7-5e7193f2cc5f
+InstanceOf: MedComMessagingDestinationUseExtension
+Usage: #inline
+* valueCoding = $Use#primary
+/**/
 
 Instance: c9a0b728-0807-11ed-861d-0242ac120002
 InstanceOf: MedComAcknowledgementMessageHeader
