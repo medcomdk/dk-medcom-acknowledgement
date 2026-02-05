@@ -3,12 +3,8 @@
     "version": "2.0.3",
     "path": "http://medcomfhir.dk/ig/acknowledgement/2.0.3",
     "status": "release",
-    "sequence": "Release",
-    "milestone" : true,
-    "title": "The DK MedCom Acknowledgement IG",
-    "category": "MedCom Acknowledgement",
-    "introduction": "The MedCom Acknowledgement Implementation Guide includes profiles used in an Acknowledgement message.",
+    "sequence": "Release 2.x.x",
+    "mode": "milestone",
     "descmd": "@release-notes.md",
-    "ci-build": "http://build.fhir.org/ig/medcomdk/dk-medcom-acknowledgement/",
-    "changes": "https://github.com/medcomdk/dk-medcom-acknowledgement/releases"
+    "desc": "Release 2.0.3 - see release notes"
 }
