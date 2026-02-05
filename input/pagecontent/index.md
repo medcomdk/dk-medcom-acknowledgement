@@ -15,17 +15,17 @@ The Acknowledgement message follows the general MedCom FHIR messaging structure,
 
 #### MedComAcknowledgementMessage
 
-A [MedComAcknowledgementMessage](http://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html) is inherited from [MedComMessagingMessage](http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-message.html), and constrains the profile since the MessageHeader shall be of the type MedComAcknowledgementMessageHeader.
+A [MedComAcknowledgementMessage](https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement.html) is inherited from [MedComMessagingMessage](http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-message.html), and constrains the profile since the MessageHeader shall be of the type MedComAcknowledgementMessageHeader.
 
 #### MedComAcknowledgementMessageHeader
 
-[MedComAcknowledgementMessageHeader](http://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html) is inherited from [MedComMessagingMessageHeader](http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-messageHeader.html), and constrains the profile as carbon-copy is not allowed and it requires a respones code, which states if the delivery of the message went well or not.
+[MedComAcknowledgementMessageHeader](https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgementHeader.html) is inherited from [MedComMessagingMessageHeader](http://medcomfhir.dk/ig/messaging/StructureDefinition-medcom-messaging-messageHeader.html), and constrains the profile as carbon-copy is not allowed and it requires a respones code, which states if the delivery of the message went well or not.
 
 An Acknowledgement message is required in MedCom FHIR Messaging and follows the recommandations from HL7 FHIR ValueSet [response-code](http://hl7.org/fhir/R4/valueset-response-code.html). 
 
 #### MedComAcknowledgementOperationOutcome
 
-[MedComAcknowledgementOperationOutcome](http://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html) shall be included in the bundle when the MessageHeader.response.code is different from 'ok'. Further, an OperationOutcome resource may be included when the MessageHeader.response.code is 'ok', e.g. in cases where the received message is valid, but it is a dublet. OperationOutcome contains a description of the error and the severity of the error.
+[MedComAcknowledgementOperationOutcome](https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-acknowledgement-operationoutcome.html) shall be included in the bundle when the MessageHeader.response.code is different from 'ok'. Further, an OperationOutcome resource may be included when the MessageHeader.response.code is 'ok', e.g. in cases where the received message is valid, but it is a dublet. OperationOutcome contains a description of the error and the severity of the error.
 
 The ValueSet [MedComAcknowledgementIssueDetailValues](http://medcomfhir.dk/ig/terminology/ValueSet-medcom-acknowledgement-issue-details.html) attached to the element OperationOutcome.response.detail.coding is used to describe the issue more detailed. Currently, the ValueSet is fairly empty, as MedCom wants input from IT-vendors on which codes give values in their systems. Across sectors there must be an agreed list of codes.
 
@@ -45,7 +45,7 @@ The simplified examples contain the required content of an Acknowledgement messa
 
 All profiles shall have a global unique id by using an UUID. [Read more about the use of ids here](https://medcomdk.github.io/MedCom-FHIR-Communication/assets/documents/052.2_MessageHeader_Identifiers_Timestamps.html).
 
-[More examples of a Acknowledgement message can be found here](http://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement-examples.html). For examples of a profile, take a look under the tab 'Examples' on the site for the given profile.
+[More examples of a Acknowledgement message can be found here](https://medcomfhir.dk/ig/acknowledgement/StructureDefinition-medcom-messaging-acknowledgement-examples.html). For examples of a profile, take a look under the tab 'Examples' on the site for the given profile.
 
 > Please notice, that in the following examples is the Provenance resources listed as an array. This is just an example of an order, resources may be listed in any order. 
 
