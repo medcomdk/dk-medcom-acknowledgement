@@ -68,9 +68,16 @@ The link below gives an overview of the included profiles, what their purpose is
 
 
 ## 2 Test and certification
-A certification of a system implies both an approved test protocol and run-trough of TouchStone test scripts. TouchStone describes an infrastructure that allows for automated test and validation against the IG's developed by MedCom. 
-<br>
-<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank"> You can find a general description of the MedCom test and certification process here.</a> 
+Certification of a system implies both an **approved test protocol** and a **successful run-through of Interoperability Test Bed (ITB) test scripts**.  
+
+ITB provides an infrastructure that enables automated testing and validation against MedCom’s FHIR Implementation Guides.
+
+<a href="https://medcomdk.github.io/MedComLandingPage/#3-test-and-certification" target="_blank">Click here to read the general description of MedCom's test and certification process.</a> <br>
+
+### Test material for sending and receiving an Acknosledgement
+The test material consists of both a **test protocol** (Word document) and a set of **ITB Test scripts**.
+
+* Guide to MedCom's [Interoperability Test Bed (ITB)](https://medcomdk.github.io/MedComLandingPage/assets/documents/ITBGettingStarted.html)
 
 **Sending an Acknowledgement**
 * [Test protocol](Acknowledgement_Testprotocol_Send.docx) 
